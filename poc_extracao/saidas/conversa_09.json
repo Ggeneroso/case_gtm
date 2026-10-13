@@ -1,0 +1,83 @@
+{
+ "resumo": "Corretor autônomo (opera com 1 assistente, ~80 leads/mês por indicação) recusou a proposta de R$ 1.499/mês após três ofertas de desconto (20%, 30%, 40%). Disse que dá conta dos leads sozinho, não vê o retorno e que, se crescer, procura o vendedor. Recusa final em 12/08.",
+ "resultado": "perdido",
+ "bola_com": "encerrado",
+ "justificativa_bola": "O cliente recusou explicitamente (\"Agradeço, mas não\") e não há pendência do vendedor nem retomada combinada.",
+ "decisor_identificado": true,
+ "decisor_papel_ou_nome": "Márcio, corretor autônomo (dono da operação)",
+ "decisor_participou_das_conversas": true,
+ "decisor_observacao": "Márcio opera sozinho com 1 assistente e decide diretamente; ele mesmo conversou com o executivo.",
+ "cliente_leads_por_mes": 80,
+ "cliente_vendas_por_mes": null,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [
+  "1 assistente",
+  "responde todos os leads em até 1h",
+  "quase tudo por indicação"
+ ],
+ "pedidos_e_perguntas_do_cliente": [],
+ "promessas_do_vendedor": [],
+ "objecoes": [
+  {
+   "tipo": "preco_roi",
+   "citacao_curta": "Não vejo onde isso ia se pagar.",
+   "tratamento": "respondida_com_desconto"
+  },
+  {
+   "tipo": "fora_do_perfil",
+   "citacao_curta": "eu mesmo dou conta dos meus leads hoje",
+   "tratamento": "respondida_com_desconto"
+  },
+  {
+   "tipo": "momento_timing",
+   "citacao_curta": "Não é o valor. Não é pra mim agora. Se eu crescer, te procuro.",
+   "tratamento": "respondida_com_desconto"
+  }
+ ],
+ "desconto_oferecido": true,
+ "desconto_percentuais": [
+  20,
+  30,
+  40
+ ],
+ "desconto_antes_de_discutir_valor": true,
+ "falhas_de_processo": [
+  "desconto_antes_de_valor",
+  "lead_nao_qualificado",
+  "retomada_sem_contexto",
+  "followup_sem_valor_novo"
+ ],
+ "motivo_real_principal": "fora_do_icp_sem_dor",
+ "motivo_real_secundarios": [
+  "valor_roi_nao_demonstrado",
+  "timing_do_cliente"
+ ],
+ "motivo_real_confianca": "alta",
+ "motivo_real_concorda_com_registrado": false,
+ "motivo_real_justificativa": "O CRM registra \"Preço\", mas o cliente disse explicitamente \"Não é o valor\". Ele tem 80 leads/mês, quase todos por indicação, e responde todos em até 1h. Ou seja, não tem dor de pré-atendimento. Os descontos de 20%, 30% e 40% vieram sem nenhuma conta de ROI com os números dele e não resolveram a objeção. O vendedor também ignorou o pedido de parar, ao insistir com 40% após o cliente dizer que não era o valor.",
+ "acao_criar_tarefa": false,
+ "acao_titulo": null,
+ "acao_data_limite": null,
+ "acao_prioridade": "baixa",
+ "acao_rascunho_mensagem": null,
+ "acao_observacao": "Recusa definitiva, sem pendência. Corrigir o motivo de perda no CRM de \"Preço\" para \"sem dor / fora do perfil\". Não insistir com mais descontos. Se quiser, pode registrar o contato para reavaliar se o volume de leads crescer, já que o cliente disse \"se eu crescer, te procuro\". Isso não foi combinado como retorno agendado.",
+ "_metricas_codigo": {
+  "ultima_msg": {
+   "autor": "cliente",
+   "data": "2026-08-12"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 0,
+  "n_msgs_cliente": 3,
+  "n_msgs_executivo": 3,
+  "intervalos_3d_ou_mais": [
+   {
+    "falou_antes": "cliente",
+    "data_antes": "2026-08-06",
+    "voltou_a_falar": "executivo",
+    "data_depois": "2026-08-12",
+    "dias": 6
+   }
+  ]
+ },
+ "_data_ref": "2026-08-12"
+}

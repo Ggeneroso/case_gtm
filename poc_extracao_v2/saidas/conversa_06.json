@@ -1,0 +1,87 @@
+{
+ "resumo": "A diretoria quer a Lais, mas pediu para adiar por causa do lançamento de um empreendimento, que termina no fim de setembro. Ficou combinado retomar na primeira semana de outubro. O CRM marcou o negócio como perdido e não criou tarefa de retomada.",
+ "bola_com": "vendedor",
+ "justificativa_bola": "O cliente pediu \"Me chama na primeira semana de outubro que aí a gente fecha, combinado?\" e o executivo aceitou: \"Combinadíssimo! Te chamo em outubro então.\" A retomada combinada é do vendedor.",
+ "decisor_identificado": true,
+ "decisor_papel_ou_nome": "Diretoria",
+ "decisor_participou_das_conversas": false,
+ "decisor_observacao": "O cliente disse que conversou com a diretoria e que ela quer a Lais. A diretoria não aparece diretamente na conversa, mas a aprovação interna já foi dada, segundo o cliente.",
+ "cliente_leads_por_mes": null,
+ "cliente_vendas_por_mes": null,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [],
+ "pedidos_e_perguntas_do_cliente": [
+  {
+   "texto": "Me chama na primeira semana de outubro que aí a gente fecha, combinado?",
+   "data": "2026-06-16",
+   "tipo": "agenda_retorno",
+   "status": "respondida",
+   "evidencia_resposta": "Combinadíssimo! Te chamo em outubro então."
+  }
+ ],
+ "promessas_do_vendedor": [
+  {
+   "promessa": "Chamar o cliente em outubro (primeira semana) para fechar o negócio",
+   "data_da_promessa": "2026-06-16",
+   "prazo_texto": "primeira semana de outubro",
+   "prazo_data": "2026-10-01",
+   "cumprida": "sem_evidencia",
+   "evidencia": "Combinadíssimo! Te chamo em outubro então. O CRM registra que nenhuma tarefa ou lembrete foi criado para outubro."
+  }
+ ],
+ "objecoes": [
+  {
+   "tipo": "momento_timing",
+   "citacao_curta": "estamos no meio do lançamento de um empreendimento e o time não tem braço pra implantar nada agora",
+   "tratamento": "tratada_generica"
+  }
+ ],
+ "desconto_oferecido": false,
+ "desconto_percentuais": [],
+ "desconto_antes_de_discutir_valor": null,
+ "falhas_de_processo": [
+  "sem_tarefa_de_retomada_no_crm",
+  "sem_proximo_passo_definido"
+ ],
+ "negocio_recuperavel": "sim",
+ "reativar_em": "2026-10-01",
+ "razao_do_cliente": "momento_timing",
+ "razao_do_cliente_citacao": "estamos no meio do lançamento de um empreendimento e o time não tem braço pra implantar nada agora",
+ "falha_principal_subtipo": "abandono_sem_retomada",
+ "falhas_secundarias": [],
+ "perda_evitavel": "sim",
+ "diagnostico_confianca": "alta",
+ "concorda_com_motivo_registrado": false,
+ "diagnostico_justificativa": "A razão do cliente é timing, e o motivo registrado (\"Não é o momento\") acerta isso. Mas o CRM encerrou o negócio como perdido e não criou tarefa para outubro, mesmo com a data combinada e a intenção de fechar (\"a gente quer a Lais\", \"aí a gente fecha\"). O registro \"vai deixar para a próxima\" descreve mal a situação: havia retorno marcado. A falha é de processo (abandono sem retomada). Ainda não é uma falha consumada, porque o prazo é futuro, mas o risco é alto sem lembrete.",
+ "acao_criar_tarefa": true,
+ "acao_titulo": "Retomar com cliente na 1ª semana de outubro (fechar Lais)",
+ "acao_data_limite": "2026-10-01",
+ "acao_prioridade": "alta",
+ "acao_rascunho_mensagem": "Oi! Tudo bem? Como combinamos, passando para retomar nossa conversa agora que o lançamento deve ter terminado. A diretoria já tinha aprovado a Lais, então podemos definir a implantação e o início do contrato. Qual dia desta semana é melhor para a gente alinhar?",
+ "acao_observacao": "Reabrir o negócio no CRM, tirando-o de \"perdido\", e criar um lembrete para 01/10/2026 com a proposta de R$ 2.250/mês. Antes disso, vale conferir se o lançamento terminou no fim de setembro, como o cliente previu. Na retomada, citar o combinado e a aprovação da diretoria, e propor um plano de implantação enxuto, já que a restrição do cliente é a falta de gente para implantar.",
+ "_diagnostico_codigo": {
+  "falha_categoria": "Retomada e follow-up",
+  "falha_dono": "Comercial (execução)",
+  "motivo_crm_sugerido": {
+   "lista_antiga": "Mudança na situação do cliente",
+   "lista_nova": "Não é o momento (adiar/retomar)"
+  }
+ },
+ "_alertas_codigo": [
+  "perdido_no_crm_com_pendencia_do_vendedor",
+  "perdido_no_crm_mas_recuperavel",
+  "motivo_registrado_diverge_do_diagnostico"
+ ],
+ "_metricas_codigo": {
+  "status_crm": "perdido",
+  "ultima_msg": {
+   "autor": "executivo",
+   "data": "2026-06-16"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 42,
+  "n_msgs_cliente": 2,
+  "n_msgs_executivo": 1,
+  "intervalos_3d_ou_mais": []
+ },
+ "_data_ref": "2026-07-28"
+}

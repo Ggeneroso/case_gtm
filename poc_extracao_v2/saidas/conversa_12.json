@@ -1,0 +1,100 @@
+{
+ "resumo": "Negócio ganho: o executivo identificou o sócio decisor (Anderson), montou a conta com os números da Carla e apresentou aos dois juntos. Anderson perguntou \"e se não funcionar?\", teve resposta concreta (revisão em 30 dias), o contrato foi enviado em 03/09 e assinado em 04/09.",
+ "bola_com": "ninguem",
+ "justificativa_bola": "Cliente respondeu \"Assinado!\" em 2026-09-04. O contrato foi enviado e assinado, e o texto não mostra nenhuma promessa pendente do vendedor.",
+ "decisor_identificado": true,
+ "decisor_papel_ou_nome": "Anderson, sócio (cuida do financeiro)",
+ "decisor_participou_das_conversas": true,
+ "decisor_observacao": "O executivo perguntou quem decidia antes de demonstrar a Lais. Anderson participou da segunda reunião e aprovou o contrato.",
+ "cliente_leads_por_mes": 500,
+ "cliente_vendas_por_mes": 7,
+ "cliente_percentual_fora_do_horario": 40,
+ "cliente_outros_numeros": [
+  "Proposta de R$ 2.250/mês",
+  "Revisão combinada após 30 dias de uso"
+ ],
+ "pedidos_e_perguntas_do_cliente": [
+  {
+   "texto": "E se não funcionar?",
+   "data": "2026-09-03",
+   "tipo": "contrato_risco",
+   "status": "respondida",
+   "evidencia_resposta": "Vocês acompanham tudo na Casa da Lais. Em 30 dias a gente senta e olha junto quantos leads fora do horário viraram visita."
+  },
+  {
+   "texto": "Pode mandar (o contrato)",
+   "data": "2026-09-03",
+   "tipo": "entrega_documento",
+   "status": "respondida",
+   "evidencia_resposta": "Contrato enviado no e-mail de vocês."
+  }
+ ],
+ "promessas_do_vendedor": [
+  {
+   "promessa": "Mostrar os números para Carla e Anderson juntos na reunião do dia seguinte",
+   "data_da_promessa": "2026-09-02",
+   "prazo_texto": "amanhã",
+   "prazo_data": "2026-09-03",
+   "cumprida": "sim",
+   "evidencia": "Reunião em 2026-09-03 com Anderson, após confirmação às 18:52 do dia 02."
+  },
+  {
+   "promessa": "Sentar com o cliente em 30 dias para olhar quantos leads fora do horário viraram visita",
+   "data_da_promessa": "2026-09-03",
+   "prazo_texto": "Em 30 dias",
+   "prazo_data": "2026-10-03",
+   "cumprida": "sem_evidencia",
+   "evidencia": "Compromisso futuro. O texto não mostra tarefa no CRM para essa revisão."
+  }
+ ],
+ "objecoes": [
+  {
+   "tipo": "risco_contrato",
+   "citacao_curta": "E se não funcionar?",
+   "tratamento": "tratada_com_dado"
+  }
+ ],
+ "desconto_oferecido": false,
+ "desconto_percentuais": [],
+ "desconto_antes_de_discutir_valor": null,
+ "falhas_de_processo": [
+  "sem_tarefa_de_retomada_no_crm"
+ ],
+ "negocio_recuperavel": "nao",
+ "reativar_em": "2026-10-03",
+ "razao_do_cliente": "ganho",
+ "razao_do_cliente_citacao": "Assinado!",
+ "falha_principal_subtipo": "nenhuma",
+ "falhas_secundarias": [],
+ "perda_evitavel": "nao_se_aplica",
+ "diagnostico_confianca": "alta",
+ "concorda_com_motivo_registrado": null,
+ "diagnostico_justificativa": "O negócio foi bem conduzido: o decisor foi identificado e incluído na reunião, a conta foi feita com os números do cliente (500 leads, 40% fora do horário), a objeção de risco foi tratada com um compromisso concreto e não houve desconto. Há uma pendência: a revisão de 30 dias prometida (por volta de 2026-10-03) não tem tarefa registrada no CRM. Falha menor, que não afeta o fechamento.",
+ "acao_criar_tarefa": true,
+ "acao_titulo": "Agendar revisão de 30 dias com Carla e Anderson (leads fora do horário que viraram visita)",
+ "acao_data_limite": "2026-10-03",
+ "acao_prioridade": "media",
+ "acao_rascunho_mensagem": "Carla, bem-vinda à Lais! Contrato assinado, obrigado pela confiança. Vamos começar a configuração e, como combinei com o Anderson, daqui a 30 dias sentamos juntos para olhar na Casa da Lais quantos leads fora do horário viraram visita. Já deixo uma data reservada para o começo de outubro, pode ser?",
+ "acao_observacao": "O negócio está ganho, mas o executivo prometeu ao Anderson uma revisão em 30 dias. Criar a tarefa no CRM para cumprir o compromisso, que é a base da confiança do cliente, e iniciar o onboarding.",
+ "_diagnostico_codigo": {
+  "falha_categoria": "Sem falha identificada",
+  "falha_dono": "-",
+  "motivo_crm_sugerido": {
+   "lista_antiga": null,
+   "lista_nova": null
+  }
+ },
+ "_alertas_codigo": [],
+ "_metricas_codigo": {
+  "status_crm": "ganho",
+  "ultima_msg": {
+   "autor": "cliente",
+   "data": "2026-09-04"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 0,
+  "n_msgs_cliente": 2,
+  "n_msgs_executivo": 2,
+  "intervalos_3d_ou_mais": []
+ },
+ "_data_ref": "2026-09-04"
+}

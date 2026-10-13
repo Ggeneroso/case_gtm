@@ -1,0 +1,97 @@
+{
+  "_leia_me": "Gabarito v2 (revisar!). Mudanças em relação ao anterior: (1) 'perguntas_abertas' virou 'perguntas', com o status esperado de cada uma, pois o modelo lista TODAS as perguntas e marca quais estão abertas; (2) bola_com usa ninguem/vendedor/cliente e olha só o texto; (3) 'motivo_principal' foi dividido em razao_do_cliente, falha_principal_subtipo e perda_evitavel. 'palavras' = grupos de palavras sem acento: o item extraído conta como acerto se contiver TODAS as palavras de algum grupo.",
+  "1": {
+    "perguntas": [
+      {"desc": "Quanto a mais a Lais faz vender (600 leads / 8 vendas)?", "palavras": [["quanto", "vender"], ["vender", "leads"]], "status": "respondida_generica_ou_parcial"},
+      {"desc": "Tem algum caso parecido?", "palavras": [["caso", "parecido"]], "status": "respondida_generica_ou_parcial"}
+    ],
+    "promessas": [{"desc": "Enviar a proposta (feito em 07/07)", "palavras": [["proposta"]], "cumprida": "sim"}],
+    "bola_com": "ninguem", "razao_do_cliente": "preco_budget", "falha_principal_subtipo": "valor_roi_nao_demonstrado", "perda_evitavel": "sim"
+  },
+  "2": {
+    "perguntas": [
+      {"desc": "Vocês têm algo só pra venda? (respondida só em 29/07, com um não)", "palavras": [["algo so pra venda"], ["plano so de venda"]], "status": "respondida"},
+      {"desc": "Piloto de 30 dias só com a carteira de venda (ignorado)", "palavras": [["piloto"]], "status": "nao_respondida"}
+    ],
+    "promessas": [{"desc": "Ver com o gestor se há condição especial (respondido só em 29/07 com um não)", "palavras": [["gestor"]], "cumprida": "sim"}],
+    "bola_com": "ninguem", "razao_do_cliente": "condicao_comercial_pacote_contrato", "falha_principal_subtipo": "oferta_inflexivel_preco_pacote", "perda_evitavel": "incerto"
+  },
+  "3": {
+    "perguntas": [
+      {"desc": "Integração com Imoview puxa imóveis automático?", "palavras": [["imoview"], ["integra", "imoveis"]], "status": "nao_respondida"},
+      {"desc": "Contrato tem fidelidade? Dá para cancelar em 3 meses?", "palavras": [["fidelidade"], ["cancel"]], "status": "nao_respondida"}
+    ],
+    "promessas": [{"desc": "Confirmar com o time técnico e retornar (nunca retornou; só follow-ups genéricos)", "palavras": [["time tecnico"], ["confirmar"]], "cumprida": "nao"}],
+    "bola_com": "vendedor", "razao_do_cliente": "sem_razao_declarada", "falha_principal_subtipo": "pendencia_do_vendedor", "perda_evitavel": "sim"
+  },
+  "4": {
+    "perguntas": [],
+    "promessas": [{"desc": "Chamar o cliente em 60 dias (prazo ~14/10; CRM sem tarefa)", "palavras": [["60 dias"], ["chamar"]], "cumprida": "sem_evidencia"}],
+    "bola_com": "vendedor", "razao_do_cliente": "concorrencia_ia_gratis_ou_propria", "falha_principal_subtipo": "abandono_sem_retomada", "perda_evitavel": "incerto"
+  },
+  "5": {
+    "perguntas": [
+      {"desc": "Pode mandar o contrato no CNPJ novo? (12/05; vendedor disse 'mando amanhã' e não mandou)", "palavras": [["pode mandar"], ["mandar o contrato"]], "status": "nao_respondida"},
+      {"desc": "Cobranças: 'não chegou nada' (20/05) e '?' (03/06)", "palavras": [["chegou nada"], ["cobranca"]], "status": "nao_respondida"}
+    ],
+    "promessas": [{"desc": "Mandar o contrato 'amanhã' (13/05; não enviou; negócio fechado por limpeza de funil)", "palavras": [["contrato"]], "cumprida": "nao"}],
+    "bola_com": "vendedor", "razao_do_cliente": "sem_razao_declarada", "falha_principal_subtipo": "pendencia_do_vendedor", "perda_evitavel": "sim"
+  },
+  "6": {
+    "perguntas": [
+      {"desc": "Me chama na 1ª semana de outubro? (vendedor aceitou)", "palavras": [["outubro"]], "status": "respondida"}
+    ],
+    "promessas": [{"desc": "Chamar o cliente na 1ª semana de outubro (CRM sem tarefa)", "palavras": [["outubro"]], "cumprida": "sem_evidencia"}],
+    "bola_com": "vendedor", "razao_do_cliente": "momento_timing", "falha_principal_subtipo": "abandono_sem_retomada", "perda_evitavel": "sim"
+  },
+  "7": {
+    "perguntas": [
+      {"desc": "'Que reunião? É sobre o portal?' (nunca respondida)", "palavras": [["reuniao"], ["portal"]], "status": "nao_respondida"}
+    ],
+    "promessas": [],
+    "bola_com": "vendedor", "razao_do_cliente": "sem_interesse_ou_lead_frio", "falha_principal_subtipo": "lead_mal_qualificado_origem", "perda_evitavel": "incerto"
+  },
+  "8": {
+    "perguntas": [
+      {"desc": "Não quer que a IA mande foto e preço; só qualificar e passar ao corretor (resposta genérica)", "palavras": [["foto"], ["preco", "imovel"], ["so", "qualific"]], "status": "respondida_generica_ou_parcial"}
+    ],
+    "promessas": [],
+    "bola_com": "vendedor", "razao_do_cliente": "concorrencia_ia_gratis_ou_propria", "falha_principal_subtipo": "objecao_tratada_de_forma_generica", "perda_evitavel": "incerto"
+  },
+  "9": {
+    "perguntas": [], "promessas": [],
+    "bola_com": "ninguem", "razao_do_cliente": "fora_do_icp_sem_dor", "falha_principal_subtipo": "desconto_antes_de_valor", "perda_evitavel": "nao"
+  },
+  "10": {
+    "perguntas": [], "promessas": [],
+    "bola_com": "vendedor", "razao_do_cliente": "sem_razao_declarada", "falha_principal_subtipo": "decisor_nao_envolvido", "perda_evitavel": "incerto"
+  },
+  "11": {
+    "perguntas": [
+      {"desc": "Vocês integram com o CRM novo? (respondida em 13/08)", "palavras": [["integra", "crm"]], "status": "respondida"},
+      {"desc": "Pode mandar contrato com início em dezembro para garantir o valor? (respondido com um não)", "palavras": [["dezembro"]], "status": "respondida"}
+    ],
+    "promessas": [
+      {"desc": "Checar com integrações e retornar (cumprido em 13/08)", "palavras": [["integra"], ["checar"]], "cumprida": "sim"},
+      {"desc": "Conversar de novo em novembro (tarefa criada para 10/11)", "palavras": [["novembro"]], "cumprida": "sem_evidencia"}
+    ],
+    "bola_com": "vendedor", "razao_do_cliente": "condicao_comercial_pacote_contrato", "falha_principal_subtipo": "oferta_inflexivel_preco_pacote", "perda_evitavel": "sim"
+  },
+  "12": {
+    "perguntas": [
+      {"desc": "E se não funcionar? (respondida: acompanhamento em 30 dias)", "palavras": [["se", "funcionar"]], "status": "respondida"},
+      {"desc": "Pode mandar (o contrato)", "palavras": [["pode mandar"]], "status": "respondida"}
+    ],
+    "promessas": [
+      {"desc": "Mostrar os números a Carla e Anderson juntos, amanhã 10h", "palavras": [["anderson"], ["amanha"]], "cumprida": "sim"},
+      {"desc": "Enviar contrato (enviado 03/09)", "palavras": [["contrato"]], "cumprida": "sim"},
+      {"desc": "Em 30 dias sentar e olhar os resultados juntos", "palavras": [["30 dias"]], "cumprida": "sem_evidencia"}
+    ],
+    "bola_com": "vendedor", "razao_do_cliente": "ganho", "falha_principal_subtipo": "nenhuma", "perda_evitavel": "nao_se_aplica"
+  },
+  "13": {
+    "perguntas": [],
+    "promessas": [{"desc": "Falar no dia 20/06 (feito)", "palavras": [["dia 20"], ["20/06"], ["falar", "20"]], "cumprida": "sim"}],
+    "bola_com": "cliente", "razao_do_cliente": "sem_razao_declarada", "falha_principal_subtipo": "followup_sem_valor_novo", "perda_evitavel": "incerto"
+  }
+}

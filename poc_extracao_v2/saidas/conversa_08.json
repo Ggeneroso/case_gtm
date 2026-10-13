@@ -1,0 +1,86 @@
+{
+ "resumo": "Cliente não quer que a Lais apresente imóveis (foto e preço), só qualifique e passe ao corretor. O executivo respondeu de forma curta, sem explorar configuração ou alternativa. O cliente disse que vai esperar o sobrinho terminar uma IA com ChatGPT e o executivo encerrou sem retorno combinado.",
+ "bola_com": "vendedor",
+ "justificativa_bola": "O cliente declarou \"Vou esperar ele terminar antes de decidir\" (sem recusa definitiva). O executivo respondeu apenas \"Se mudar de ideia estamos aqui\", sem tratar a objeção sobre o fluxo de apresentação de imóveis e sem combinar retomada. Há caminho de retomada claro e não tentado: verificar se a Lais pode funcionar só como qualificadora e comparar com a IA do sobrinho.",
+ "decisor_identificado": true,
+ "decisor_papel_ou_nome": "Interlocutor que escreve (aparenta ser o dono/responsável); o sobrinho constrói a IA própria",
+ "decisor_participou_das_conversas": true,
+ "decisor_observacao": "O cliente fala em nome da imobiliária (\"pra gente\") e decide sozinho. O papel exato não foi declarado. O sobrinho influencia a decisão, mas não participou da conversa.",
+ "cliente_leads_por_mes": null,
+ "cliente_vendas_por_mes": null,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [],
+ "pedidos_e_perguntas_do_cliente": [
+  {
+   "texto": "Pedido de que a IA não mande foto e preço de imóvel; apenas descubra o que a pessoa quer e passe para o corretor, que apresenta o imóvel.",
+   "data": "2026-09-03",
+   "tipo": "funcionalidade",
+   "status": "respondida_generica_ou_parcial",
+   "evidencia_resposta": "Hoje a Lais apresenta os imóveis da sua prateleira, faz parte do fluxo. Mas ela também qualifica!"
+  }
+ ],
+ "promessas_do_vendedor": [],
+ "objecoes": [
+  {
+   "tipo": "funcionalidade",
+   "citacao_curta": "não quero que a IA fique mandando foto e preço de imóvel",
+   "tratamento": "tratada_generica"
+  },
+  {
+   "tipo": "concorrente_gratis_ou_propria",
+   "citacao_curta": "Meu sobrinho está montando uma IA pra gente com ChatGPT",
+   "tratamento": "ignorada"
+  }
+ ],
+ "desconto_oferecido": false,
+ "desconto_percentuais": [],
+ "desconto_antes_de_discutir_valor": null,
+ "falhas_de_processo": [
+  "resposta_generica",
+  "sem_proximo_passo_definido",
+  "sem_tarefa_de_retomada_no_crm"
+ ],
+ "negocio_recuperavel": "sim",
+ "reativar_em": "2026-09-17",
+ "razao_do_cliente": "concorrencia_ia_gratis_ou_propria",
+ "razao_do_cliente_citacao": "Meu sobrinho está montando uma IA pra gente com ChatGPT que faz só isso. Vou esperar ele terminar antes de decidir.",
+ "falha_principal_subtipo": "objecao_tratada_de_forma_generica",
+ "falhas_secundarias": [
+  "abandono_sem_retomada"
+ ],
+ "perda_evitavel": "incerto",
+ "diagnostico_confianca": "media",
+ "concorda_com_motivo_registrado": false,
+ "diagnostico_justificativa": "O CRM registra \"falta de funcionalidade\", mas a barreira declarada na decisão foi esperar a IA própria feita pelo sobrinho com ChatGPT. A objeção de funcionalidade (não apresentar imóveis) existiu, mas o executivo respondeu em uma frase genérica, sem verificar se o fluxo pode ser ajustado para só qualificar e sem perguntar mais. A IA própria foi aceita sem contra-argumento e sem retorno combinado. O cliente não recusou de forma definitiva, e a perda ainda é incerta porque o cliente tem uma alternativa em andamento.",
+ "acao_criar_tarefa": true,
+ "acao_titulo": "Retomar com resposta específica sobre Lais só qualificando e repassando ao corretor",
+ "acao_data_limite": "2026-09-04",
+ "acao_prioridade": "media",
+ "acao_rascunho_mensagem": "Oi! Voltando ao que você falou sobre a Lais não mandar foto e preço: vou confirmar com o time se dá para configurá-la só para descobrir o que o lead procura e passar para o corretor apresentar. Te confirmo até amanhã. E enquanto seu sobrinho monta a IA, posso te mostrar como seria o fluxo só de qualificação, para você comparar? Se fizer sentido, retomo com você daqui a duas semanas.",
+ "acao_observacao": "Negócio marcado como perdido, mas sem recusa definitiva. Confirmar com produto se a apresentação de imóveis pode ser desativada. Se puder, retomar com a resposta objetiva e combinar um retorno quando o sobrinho terminar a IA. Registrar tarefa de retomada no CRM.",
+ "_diagnostico_codigo": {
+  "falha_categoria": "Descoberta e valor",
+  "falha_dono": "Comercial (execução)",
+  "motivo_crm_sugerido": {
+   "lista_antiga": "Concorrente",
+   "lista_nova": "Seguiu com concorrência"
+  }
+ },
+ "_alertas_codigo": [
+  "perdido_no_crm_com_pendencia_do_vendedor",
+  "perdido_no_crm_mas_recuperavel",
+  "motivo_registrado_diverge_do_diagnostico"
+ ],
+ "_metricas_codigo": {
+  "status_crm": "perdido",
+  "ultima_msg": {
+   "autor": "executivo",
+   "data": "2026-09-03"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 0,
+  "n_msgs_cliente": 2,
+  "n_msgs_executivo": 2,
+  "intervalos_3d_ou_mais": []
+ },
+ "_data_ref": "2026-09-03"
+}

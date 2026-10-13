@@ -1,0 +1,92 @@
+{
+ "resumo": "Proposta de R$ 3.949/mês enviada em 18/06 após reunião. Patrícia fez duas perguntas (integração Imoview e fidelidade/cancelamento em 3 meses) antes de levar à diretoria; o executivo respondeu apenas \"vou confirmar com o time técnico e já te retorno\".",
+ "bola_com": "vendedor",
+ "justificativa_bola": "O executivo prometeu \"confirmar com o time técnico e já te retorno\" e as duas dúvidas da cliente (Imoview e fidelidade) seguem sem resposta de conteúdo.",
+ "decisor_identificado": true,
+ "decisor_papel_ou_nome": "Diretoria (Patrícia vai levar a proposta para a diretoria)",
+ "decisor_participou_das_conversas": false,
+ "decisor_observacao": "Patrícia é a interlocutora e leva a proposta à diretoria, que decide. A diretoria não participou da conversa. Convém dar a Patrícia material claro para ela apresentar, ou incluir a diretoria numa conversa.",
+ "cliente_leads_por_mes": null,
+ "cliente_vendas_por_mes": null,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [],
+ "pedidos_e_perguntas_do_cliente": [
+  {
+   "texto": "A integração com o Imoview puxa os imóveis automaticamente ou alguém precisa cadastrar?",
+   "data": "2026-06-19",
+   "tipo": "tecnica_integracao",
+   "status": "nao_respondida",
+   "evidencia_resposta": "Vou confirmar com o time técnico e já te retorno"
+  },
+  {
+   "texto": "O contrato tem fidelidade? Se não funcionar em 3 meses, consigo cancelar?",
+   "data": "2026-06-19",
+   "tipo": "contrato_risco",
+   "status": "nao_respondida",
+   "evidencia_resposta": "Vou confirmar com o time técnico e já te retorno"
+  }
+ ],
+ "promessas_do_vendedor": [
+  {
+   "promessa": "Confirmar com o time técnico as dúvidas sobre integração com o Imoview e fidelidade/cancelamento, e retornar à cliente",
+   "data_da_promessa": "2026-06-19",
+   "prazo_texto": "já te retorno",
+   "prazo_data": "2026-06-19",
+   "cumprida": "sem_evidencia",
+   "evidencia": "Vou confirmar com o time técnico e já te retorno"
+  }
+ ],
+ "objecoes": [
+  {
+   "tipo": "duvida_tecnica",
+   "citacao_curta": "a integração com o Imoview puxa os imóveis automático ou alguém tem que cadastrar?",
+   "tratamento": "tratada_generica"
+  },
+  {
+   "tipo": "risco_contrato",
+   "citacao_curta": "o contrato tem fidelidade? Se não funcionar em 3 meses consigo cancelar?",
+   "tratamento": "tratada_generica"
+  }
+ ],
+ "desconto_oferecido": false,
+ "desconto_percentuais": [],
+ "desconto_antes_de_discutir_valor": null,
+ "falhas_de_processo": [],
+ "negocio_recuperavel": "sim",
+ "reativar_em": null,
+ "razao_do_cliente": "sem_razao_declarada",
+ "razao_do_cliente_citacao": null,
+ "falha_principal_subtipo": "nenhuma",
+ "falhas_secundarias": [],
+ "perda_evitavel": "nao_se_aplica",
+ "diagnostico_confianca": "alta",
+ "concorda_com_motivo_registrado": null,
+ "diagnostico_justificativa": "Negócio aberto e muito recente (a resposta do executivo foi há minutos). A cliente tem interesse e quer levar a proposta à diretoria. Ainda não há falha de processo, pois a promessa de retorno está dentro do prazo (\"já te retorno\", mesmo dia). O risco é a resposta atrasar, já que ela precisa das duas respostas para a decisão. A resposta de cortesia não tratou o conteúdo das perguntas, mas ainda é cedo para chamar de falha.",
+ "acao_criar_tarefa": true,
+ "acao_titulo": "Responder Patrícia: integração Imoview e fidelidade/cancelamento",
+ "acao_data_limite": "2026-06-19",
+ "acao_prioridade": "alta",
+ "acao_rascunho_mensagem": "Oi Patrícia! Confirmei com o time técnico: sobre o Imoview, [informar se a importação dos imóveis é automática ou manual e como funciona]. Sobre o contrato, [informar se há fidelidade e as condições de cancelamento nos 3 primeiros meses]. Se ajudar na apresentação para a diretoria, posso entrar numa conversa rápida com eles. Qual o melhor horário?",
+ "acao_observacao": "Obter com o time técnico e o comercial as respostas exatas antes de mandar, sem inventar condição contratual. Responder ainda hoje (19/06), pois a cliente precisa dessas respostas para levar a proposta à diretoria. Criar também tarefa de follow-up no CRM após o envio.",
+ "_diagnostico_codigo": {
+  "falha_categoria": "Sem falha identificada",
+  "falha_dono": "-",
+  "motivo_crm_sugerido": {
+   "lista_antiga": "Sem resposta a proposta",
+   "lista_nova": "Ghosting"
+  }
+ },
+ "_alertas_codigo": [],
+ "_metricas_codigo": {
+  "status_crm": "aberto",
+  "ultima_msg": {
+   "autor": "executivo",
+   "data": "2026-06-19"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 0,
+  "n_msgs_cliente": 1,
+  "n_msgs_executivo": 2,
+  "intervalos_3d_ou_mais": []
+ },
+ "_data_ref": "2026-06-19"
+}

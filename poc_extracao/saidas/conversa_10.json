@@ -1,0 +1,58 @@
+{
+ "resumo": "Negócio movido para perdido em 29/08 após 3 visitas e 2 mensagens do executivo à dona Helena, que nunca respondeu. O gerente Fábio gostou, mas a decisora nunca foi engajada, e a filha, que cuida do Instagram e do site, nunca foi contatada.",
+ "resultado": "perdido",
+ "bola_com": "encerrado",
+ "justificativa_bola": "O negócio foi marcado como Fechado perdido no CRM. Não há pedido do cliente nem promessa pendente do vendedor. O cliente nunca respondeu e não recusou explicitamente.",
+ "decisor_identificado": true,
+ "decisor_papel_ou_nome": "Dona Helena (proprietária); a filha cuida do Instagram e do site e pode influenciar",
+ "decisor_participou_das_conversas": false,
+ "decisor_observacao": "Fábio (gerente de locação) disse que \"quem decide é a dona\". Helena nunca respondeu e não foi encontrada nas visitas. Ela é descrita como resistente a tecnologia. A filha, possível influenciadora, não foi contatada.",
+ "cliente_leads_por_mes": null,
+ "cliente_vendas_por_mes": null,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [],
+ "pedidos_e_perguntas_do_cliente": [],
+ "promessas_do_vendedor": [],
+ "objecoes": [],
+ "desconto_oferecido": false,
+ "desconto_percentuais": [],
+ "desconto_antes_de_discutir_valor": null,
+ "falhas_de_processo": [
+  "decisor_nao_envolvido",
+  "followup_sem_valor_novo",
+  "resposta_generica",
+  "sem_proximo_passo_definido"
+ ],
+ "motivo_real_principal": "decisor_nao_envolvido",
+ "motivo_real_secundarios": [
+  "abandono_sem_retomada"
+ ],
+ "motivo_real_confianca": "media",
+ "motivo_real_concorda_com_registrado": false,
+ "motivo_real_justificativa": "O CRM diz \"sem resposta à proposta\", mas não há evidência de que uma proposta tenha chegado à decisora. A dona nunca respondeu a nenhuma das duas mensagens, que foram genéricas. A segunda (\"passei aí de novo, fico à disposição\") não trouxe valor novo. O vendedor soube que a filha cuida do Instagram e do site e não tentou contato com ela. Houve também 24 dias sem ação até o fechamento. A cliente nunca explicou por que parou, então a confiança é média.",
+ "acao_criar_tarefa": false,
+ "acao_titulo": null,
+ "acao_data_limite": null,
+ "acao_prioridade": "baixa",
+ "acao_rascunho_mensagem": null,
+ "acao_observacao": "O negócio está fechado como perdido e não há pendência com o cliente. A dona não recusou, então vale reavaliar uma reabordagem futura pela filha (Instagram/site) ou via Fábio, com uma mensagem que traga valor, como o volume de leads fora do horário. Por ora não há tarefa a criar.",
+ "_metricas_codigo": {
+  "ultima_msg": {
+   "autor": "executivo",
+   "data": "2026-08-05"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 24,
+  "n_msgs_cliente": 0,
+  "n_msgs_executivo": 2,
+  "intervalos_3d_ou_mais": [
+   {
+    "falou_antes": "executivo",
+    "data_antes": "2026-07-22",
+    "voltou_a_falar": "executivo",
+    "data_depois": "2026-08-05",
+    "dias": 14
+   }
+  ]
+ },
+ "_data_ref": "2026-08-29"
+}

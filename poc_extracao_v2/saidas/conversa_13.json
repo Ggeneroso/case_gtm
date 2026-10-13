@@ -1,0 +1,103 @@
+{
+ "resumo": "Após visita presencial com os dois sócios e proposta de R$ 2.250/mês, o cliente só respondeu \"Certo, obrigado\" e sumiu. O vendedor fez três follow-ups, uma visita sem agendamento, e pausou os contatos em 10/07; o negócio foi marcado como perdido em 15/07.",
+ "bola_com": "cliente",
+ "justificativa_bola": "O vendedor enviou a proposta, fez follow-ups, deixou áudio e recado na recepção, e avisou em 10/07 que pausaria os contatos (\"é só me chamar por aqui\"). O cliente não recusou e ficou de decidir; não há pendência do vendedor no texto.",
+ "decisor_identificado": true,
+ "decisor_papel_ou_nome": "Seu Jorge e o sócio (decisão conjunta dos dois sócios)",
+ "decisor_participou_das_conversas": true,
+ "decisor_observacao": "Os dois sócios participaram da visita presencial de 10/06 e pediram a proposta. No WhatsApp só Seu Jorge respondeu, e uma única vez. O sócio não apareceu nas mensagens; em 03/07 os sócios estavam fora e o recado ficou com a recepção.",
+ "cliente_leads_por_mes": 350,
+ "cliente_vendas_por_mes": null,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [],
+ "pedidos_e_perguntas_do_cliente": [
+  {
+   "texto": "Pediram proposta e disseram que decidiriam em até 10 dias (registro da visita)",
+   "data": "2026-06-10",
+   "tipo": "entrega_documento",
+   "status": "respondida",
+   "evidencia_resposta": "Proposta enviada em 10/06 17:30 com simulação de 350 leads/mês"
+  }
+ ],
+ "promessas_do_vendedor": [
+  {
+   "promessa": "Falar com o cliente no dia 20 (retorno combinado, aceito pelo cliente com 'Certo')",
+   "data_da_promessa": "2026-06-10",
+   "prazo_texto": "dia 20",
+   "prazo_data": "2026-06-20",
+   "cumprida": "sim",
+   "evidencia": "Em 20/06 10:00 o executivo retomou: 'Conforme combinado, conseguiram avaliar?'"
+  }
+ ],
+ "objecoes": [],
+ "desconto_oferecido": false,
+ "desconto_percentuais": [],
+ "desconto_antes_de_discutir_valor": null,
+ "falhas_de_processo": [
+  "followup_sem_valor_novo",
+  "sem_tarefa_de_retomada_no_crm"
+ ],
+ "negocio_recuperavel": "incerto",
+ "reativar_em": "2026-08-14",
+ "razao_do_cliente": "sem_razao_declarada",
+ "razao_do_cliente_citacao": null,
+ "falha_principal_subtipo": "followup_sem_valor_novo",
+ "falhas_secundarias": [
+  "decisor_nao_envolvido"
+ ],
+ "perda_evitavel": "incerto",
+ "diagnostico_confianca": "baixa",
+ "concorda_com_motivo_registrado": false,
+ "diagnostico_justificativa": "O cliente nunca explicou por que parou. \"Sem resposta à proposta\" descreve o fato, mas não a causa, e trata o negócio como encerrado embora não haja recusa. Houve interesse real: visita com os dois sócios, demo com lead real, proposta pedida e prazo de decisão de 10 dias. O follow-up de 20/06 (\"conseguiram avaliar?\") foi genérico, o áudio de 27/06 e a visita de 03/07 trouxeram pouco conteúdo novo e nenhum dado de ROI, e a conversa de WhatsApp ficou só com Seu Jorge. Não há evidência para dizer que um follow-up melhor teria fechado, então a perda é incerta. Como o vendedor pausou os contatos sem data combinada, não há tarefa de retomada no CRM.",
+ "acao_criar_tarefa": true,
+ "acao_titulo": "Retomar Seu Jorge em ~30 dias com argumento novo (ROI com 350 leads/mês)",
+ "acao_data_limite": "2026-08-14",
+ "acao_prioridade": "baixa",
+ "acao_rascunho_mensagem": "Seu Jorge, tudo bem? Fiz uma conta com os 350 leads/mês de vocês: dá pra ver quantos contatos fora do horário a Lais atenderia e quanto isso pode representar em visitas a mais por mês. Posso te mandar em 2 linhas e, se fizer sentido, passar aí 15 min com os dois sócios?",
+ "acao_observacao": "Não é recusa explícita; o cliente apenas parou de responder após a proposta. Criar tarefa de retomada espaçada (~30 dias após a pausa) com conteúdo novo (conta de ROI com os 350 leads/mês, caso de imobiliária parecida) e tentar contato direto com o sócio. Sem desconto. Confirmar o motivo real da parada antes de insistir na proposta.",
+ "_diagnostico_codigo": {
+  "falha_categoria": "Retomada e follow-up",
+  "falha_dono": "Comercial (execução)",
+  "motivo_crm_sugerido": {
+   "lista_antiga": "Sem resposta a proposta",
+   "lista_nova": "Ghosting"
+  }
+ },
+ "_alertas_codigo": [
+  "motivo_registrado_diverge_do_diagnostico"
+ ],
+ "_metricas_codigo": {
+  "status_crm": "perdido",
+  "ultima_msg": {
+   "autor": "executivo",
+   "data": "2026-07-10"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 5,
+  "n_msgs_cliente": 1,
+  "n_msgs_executivo": 4,
+  "intervalos_3d_ou_mais": [
+   {
+    "falou_antes": "cliente",
+    "data_antes": "2026-06-10",
+    "voltou_a_falar": "executivo",
+    "data_depois": "2026-06-20",
+    "dias": 10
+   },
+   {
+    "falou_antes": "executivo",
+    "data_antes": "2026-06-20",
+    "voltou_a_falar": "executivo",
+    "data_depois": "2026-06-27",
+    "dias": 7
+   },
+   {
+    "falou_antes": "executivo",
+    "data_antes": "2026-06-27",
+    "voltou_a_falar": "executivo",
+    "data_depois": "2026-07-10",
+    "dias": 13
+   }
+  ]
+ },
+ "_data_ref": "2026-07-15"
+}

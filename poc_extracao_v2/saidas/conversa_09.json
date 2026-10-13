@@ -1,0 +1,100 @@
+{
+ "resumo": "Corretor autônomo que opera com 1 assistente, ~80 leads/mês e responde tudo em até 1h. Disse que não vê onde a Lais se pagaria e que não é o valor. Recusou após três ofertas de desconto (20%, 30%, 40%) e encerrou com \"Agradeço, mas não.\"",
+ "bola_com": "ninguem",
+ "justificativa_bola": "O cliente recusou de forma explícita e definitiva em 12/08: \"Agradeço, mas não.\" Antes, em 06/08, disse \"Não é o valor. Não é pra mim agora. Se eu crescer, te procuro.\" Quem retoma, se for o caso, é o cliente, e não há retorno combinado com o vendedor.",
+ "decisor_identificado": true,
+ "decisor_papel_ou_nome": "Márcio, corretor autônomo (decide sozinho)",
+ "decisor_participou_das_conversas": true,
+ "decisor_observacao": "Márcio opera sozinho com 1 assistente e é quem decide. Conversou diretamente com o executivo.",
+ "cliente_leads_por_mes": 80,
+ "cliente_vendas_por_mes": null,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [
+  "1 assistente",
+  "responde todos os leads em até 1h",
+  "quase todos os leads vêm de indicação"
+ ],
+ "pedidos_e_perguntas_do_cliente": [],
+ "promessas_do_vendedor": [],
+ "objecoes": [
+  {
+   "tipo": "fora_do_perfil",
+   "citacao_curta": "eu mesmo dou conta dos meus leads hoje",
+   "tratamento": "ignorada"
+  },
+  {
+   "tipo": "preco_roi",
+   "citacao_curta": "Não vejo onde isso ia se pagar",
+   "tratamento": "respondida_com_desconto"
+  },
+  {
+   "tipo": "momento_timing",
+   "citacao_curta": "Não é pra mim agora. Se eu crescer, te procuro.",
+   "tratamento": "ignorada"
+  }
+ ],
+ "desconto_oferecido": true,
+ "desconto_percentuais": [
+  20,
+  30,
+  40
+ ],
+ "desconto_antes_de_discutir_valor": true,
+ "falhas_de_processo": [
+  "desconto_antes_de_valor",
+  "resposta_generica",
+  "retomada_sem_contexto",
+  "lead_nao_qualificado"
+ ],
+ "negocio_recuperavel": "nao",
+ "reativar_em": null,
+ "razao_do_cliente": "fora_do_icp_sem_dor",
+ "razao_do_cliente_citacao": "eu mesmo dou conta dos meus leads hoje. Não vejo onde isso ia se pagar.",
+ "falha_principal_subtipo": "desconto_antes_de_valor",
+ "falhas_secundarias": [
+  "valor_roi_nao_demonstrado",
+  "objecao_tratada_de_forma_generica",
+  "lead_mal_qualificado_origem"
+ ],
+ "perda_evitavel": "nao",
+ "diagnostico_confianca": "alta",
+ "concorda_com_motivo_registrado": false,
+ "diagnostico_justificativa": "O CRM registra \"Preço\", mas o cliente disse \"Não é o valor\". A razão dele é falta de dor: ele atende todo mundo em até 1h, tem 80 leads/mês, vindos quase todos por indicação, e não tem CRM. O vendedor ofereceu 20%, 30% e 40% sem mostrar ROI com os números dele, e respondeu a uma objeção de valor e de necessidade só com desconto. Mesmo sem essa falha, o perfil não tem a dor que a Lais resolve, então a perda não era evitável. O cliente deixou uma abertura vaga (\"Se eu crescer, te procuro\"), mas depois recusou de forma definitiva.",
+ "acao_criar_tarefa": false,
+ "acao_titulo": null,
+ "acao_data_limite": null,
+ "acao_prioridade": "baixa",
+ "acao_rascunho_mensagem": null,
+ "acao_observacao": "O cliente recusou de forma explícita e definitiva e não há retorno combinado. Não insistir. Corrigir o motivo de perda no CRM para falta de dor / fora do perfil, e não preço. Para o aprendizado do time: qualificar a dor antes da proposta e não oferecer desconto sem discutir ROI.",
+ "_diagnostico_codigo": {
+  "falha_categoria": "Descoberta e valor",
+  "falha_dono": "Comercial (execução)",
+  "motivo_crm_sugerido": {
+   "lista_antiga": "Fora do ICP",
+   "lista_nova": "Fora do ICP"
+  }
+ },
+ "_alertas_codigo": [
+  "motivo_registrado_diverge_do_diagnostico"
+ ],
+ "_metricas_codigo": {
+  "status_crm": "perdido",
+  "ultima_msg": {
+   "autor": "cliente",
+   "data": "2026-08-12"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 0,
+  "n_msgs_cliente": 3,
+  "n_msgs_executivo": 3,
+  "intervalos_3d_ou_mais": [
+   {
+    "falou_antes": "cliente",
+    "data_antes": "2026-08-06",
+    "voltou_a_falar": "executivo",
+    "data_depois": "2026-08-12",
+    "dias": 6
+   }
+  ]
+ },
+ "_data_ref": "2026-08-12"
+}

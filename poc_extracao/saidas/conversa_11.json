@@ -1,0 +1,91 @@
+{
+ "resumo": "Cliente gostou da demo, está migrando de CRM até novembro e queria contrato com início em dezembro para garantir o preço atual. O executivo recusou por não ter contrato com início futuro e combinou retomar em novembro; o CRM marcou como perdido, com tarefa para 10/11.",
+ "resultado": "perdido",
+ "bola_com": "vendedor",
+ "justificativa_bola": "Há retomada combinada em novembro (aceita pelo cliente com \"Ok, combinado\"), que fica a cargo do vendedor. Existe tarefa no CRM para 10/11. O cliente não recusou, ele queria fechar.",
+ "decisor_identificado": false,
+ "decisor_papel_ou_nome": null,
+ "decisor_participou_das_conversas": false,
+ "decisor_observacao": "A conversa não informa o papel do cliente nem quem decide. Ele pediu o contrato diretamente, o que sugere poder de decisão, mas não há confirmação.",
+ "cliente_leads_por_mes": null,
+ "cliente_vendas_por_mes": null,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [],
+ "pedidos_e_perguntas_do_cliente": [
+  {
+   "texto": "Vocês integram com o CRM novo?",
+   "data": "2026-08-11",
+   "tipo": "tecnica_integracao",
+   "status": "respondida",
+   "evidencia_resposta": "Confirmado: integramos com o CRM novo. Mas a integração só funciona depois que a base de imóveis estiver migrada."
+  },
+  {
+   "texto": "Me manda o contrato com início em dezembro? Assim eu garanto o valor de agora.",
+   "data": "2026-08-13",
+   "tipo": "contrato_risco",
+   "status": "respondida",
+   "evidencia_resposta": "Infelizmente não temos contrato com início futuro. Melhor a gente conversar de novo em novembro, combinado?"
+  }
+ ],
+ "promessas_do_vendedor": [
+  {
+   "promessa": "Checar com o time de integrações se há integração com o CRM novo e retornar",
+   "data_da_promessa": "2026-08-11",
+   "prazo_texto": null,
+   "prazo_data": null,
+   "cumprida": "sim",
+   "evidencia": "Em 13/08 o executivo respondeu: Confirmado: integramos com o CRM novo."
+  },
+  {
+   "promessa": "Retomar a conversa em novembro",
+   "data_da_promessa": "2026-08-13",
+   "prazo_texto": "novembro",
+   "prazo_data": "2026-11-01",
+   "cumprida": "sem_evidencia",
+   "evidencia": "Cliente aceitou: Ok, combinado. CRM registra tarefa criada para 10/11."
+  }
+ ],
+ "objecoes": [
+  {
+   "tipo": "momento_timing",
+   "citacao_curta": "a migração termina só em novembro",
+   "tratamento": "tratada_generica"
+  },
+  {
+   "tipo": "risco_contrato",
+   "citacao_curta": "Me manda o contrato com início em dezembro? Assim eu garanto o valor de agora",
+   "tratamento": "ignorada"
+  }
+ ],
+ "desconto_oferecido": false,
+ "desconto_percentuais": [],
+ "desconto_antes_de_discutir_valor": null,
+ "falhas_de_processo": [
+  "politica_inflexivel",
+  "sem_proximo_passo_definido"
+ ],
+ "motivo_real_principal": "oferta_inflexivel_preco_pacote",
+ "motivo_real_secundarios": [
+  "timing_do_cliente"
+ ],
+ "motivo_real_confianca": "alta",
+ "motivo_real_concorda_com_registrado": false,
+ "motivo_real_justificativa": "O cliente demonstrou interesse e quis assinar agora, com início em dezembro, para travar o preço. A falta de contrato com início futuro foi o que impediu o fechamento, e a migração só criou o contexto. O motivo \"Não é o momento\" mascara uma negativa de customização por parte do vendedor. A tarefa para 10/11 existe, mas o negócio foi marcado como perdido sem tentar uma alternativa, como contrato assinado com início em dezembro, escalonamento ou preço garantido por escrito.",
+ "acao_criar_tarefa": true,
+ "acao_titulo": "Consultar gestor sobre contrato com início em dezembro e retomar cliente antes de 10/11",
+ "acao_data_limite": "2026-08-17",
+ "acao_prioridade": "alta",
+ "acao_rascunho_mensagem": "Oi! Sobre o contrato com início em dezembro: vou conferir internamente se há uma forma de garantir o valor de hoje para quando a migração do CRM terminar. Te retorno até segunda com uma resposta. Se não der, retomamos em novembro, como combinamos.",
+ "acao_observacao": "O cliente pediu uma condição simples (assinar agora, iniciar em dezembro, manter o preço) e recebeu um \"não\" seguido de adiamento. Antes de aceitar a perda, o vendedor deve ver com o gestor se há exceção: assinatura com início futuro, preço garantido por escrito ou carta-proposta com validade estendida. A tarefa de 10/11 já existe no CRM e deve ser mantida. Considere reabrir o negócio como em andamento em vez de perdido.",
+ "_metricas_codigo": {
+  "ultima_msg": {
+   "autor": "cliente",
+   "data": "2026-08-13"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 1,
+  "n_msgs_cliente": 4,
+  "n_msgs_executivo": 3,
+  "intervalos_3d_ou_mais": []
+ },
+ "_data_ref": "2026-08-14"
+}

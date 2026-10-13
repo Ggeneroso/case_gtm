@@ -1,0 +1,63 @@
+{
+ "resumo": "Negócio com aprovação verbal do dono; o cliente enviou o CNPJ novo em 12/05 e pediu o contrato para assinar na semana. O executivo prometeu enviar em 13/05 e não há evidência de envio até 15/05.",
+ "resultado": "em_andamento",
+ "bola_com": "vendedor",
+ "justificativa_bola": "O cliente forneceu o CNPJ e aguarda o contrato. O executivo prometeu enviar em 13/05 e não há registro de envio.",
+ "decisor_identificado": true,
+ "decisor_papel_ou_nome": "Dono da imobiliária",
+ "decisor_participou_das_conversas": true,
+ "decisor_observacao": "O dono aprovou verbalmente na visita e é quem pede o contrato e vai assiná-lo.",
+ "cliente_leads_por_mes": null,
+ "cliente_vendas_por_mes": null,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [],
+ "pedidos_e_perguntas_do_cliente": [
+  {
+   "texto": "Pode mandar o contrato (no CNPJ novo) que ele assina essa semana.",
+   "data": "2026-05-12",
+   "tipo": "entrega_documento",
+   "status": "nao_respondida",
+   "evidencia_resposta": "Executivo disse apenas \"Mando amanhã\"; não há evidência de envio do contrato."
+  }
+ ],
+ "promessas_do_vendedor": [
+  {
+   "promessa": "Enviar o contrato no CNPJ novo da empresa",
+   "data_da_promessa": "2026-05-12",
+   "prazo_texto": "amanhã",
+   "prazo_data": "2026-05-13",
+   "cumprida": "sem_evidencia",
+   "evidencia": "Última mensagem é a promessa de 12/05; não há registro de envio até 15/05."
+  }
+ ],
+ "objecoes": [],
+ "desconto_oferecido": false,
+ "desconto_percentuais": [],
+ "desconto_antes_de_discutir_valor": null,
+ "falhas_de_processo": [
+  "demora_na_resposta",
+  "sem_tarefa_de_retomada_no_crm"
+ ],
+ "motivo_real_principal": "pendencia_do_vendedor",
+ "motivo_real_secundarios": [],
+ "motivo_real_confianca": "media",
+ "motivo_real_concorda_com_registrado": null,
+ "motivo_real_justificativa": "O negócio não foi perdido. O risco atual é o contrato prometido para 13/05 que não aparece como enviado, com o cliente pronto para assinar. O CRM também não mostra tarefa para esse envio.",
+ "acao_criar_tarefa": true,
+ "acao_titulo": "Enviar contrato no CNPJ novo ao dono (atrasado desde 13/05)",
+ "acao_data_limite": "2026-05-16",
+ "acao_prioridade": "alta",
+ "acao_rascunho_mensagem": "Bom dia! Peço desculpas pela demora, o contrato no nome da empresa nova (CNPJ que você passou) está seguindo para você agora. Assim que chegar, me avisa que acompanho a assinatura para fecharmos ainda esta semana.",
+ "acao_observacao": "O prazo prometido (13/05) já passou e o cliente queria assinar na semana de 12/05. Enviar o contrato com o CNPJ novo hoje, registrar o envio no CRM e criar tarefa de acompanhamento da assinatura.",
+ "_metricas_codigo": {
+  "ultima_msg": {
+   "autor": "executivo",
+   "data": "2026-05-12"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 3,
+  "n_msgs_cliente": 1,
+  "n_msgs_executivo": 1,
+  "intervalos_3d_ou_mais": []
+ },
+ "_data_ref": "2026-05-15"
+}

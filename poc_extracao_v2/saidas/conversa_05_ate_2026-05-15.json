@@ -1,0 +1,77 @@
+{
+ "resumo": "Dono aprovou verbalmente a proposta de R$ 3.949/mês e enviou o CNPJ novo em 12/05 pedindo o contrato para assinar na semana. O executivo prometeu enviar \"amanhã\" (13/05), mas não há evidência de envio até 15/05.",
+ "bola_com": "vendedor",
+ "justificativa_bola": "Cliente: \"Pode mandar o contrato que eu assino essa semana.\" Executivo: \"Show! Mando amanhã.\" Não há evidência de envio do contrato e o prazo (13/05) já passou.",
+ "decisor_identificado": true,
+ "decisor_papel_ou_nome": "Dono da imobiliária",
+ "decisor_participou_das_conversas": true,
+ "decisor_observacao": "O dono aprovou de boca na visita e escreveu pessoalmente enviando o CNPJ novo e pedindo o contrato.",
+ "cliente_leads_por_mes": null,
+ "cliente_vendas_por_mes": null,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [],
+ "pedidos_e_perguntas_do_cliente": [
+  {
+   "texto": "Pode mandar o contrato (no CNPJ novo) que eu assino essa semana.",
+   "data": "2026-05-12",
+   "tipo": "entrega_documento",
+   "status": "nao_respondida",
+   "evidencia_resposta": "Executivo só respondeu \"Show! Mando amanhã.\"; não há evidência de envio do contrato."
+  }
+ ],
+ "promessas_do_vendedor": [
+  {
+   "promessa": "Enviar o contrato no nome da empresa nova (CNPJ novo)",
+   "data_da_promessa": "2026-05-12",
+   "prazo_texto": "amanhã",
+   "prazo_data": "2026-05-13",
+   "cumprida": "nao",
+   "evidencia": "Prazo de 13/05 já passou; a última mensagem da conversa é a promessa de 12/05, sem registro de envio do contrato."
+  }
+ ],
+ "objecoes": [],
+ "desconto_oferecido": false,
+ "desconto_percentuais": [],
+ "desconto_antes_de_discutir_valor": null,
+ "falhas_de_processo": [
+  "promessa_nao_cumprida",
+  "demora_na_resposta"
+ ],
+ "negocio_recuperavel": "sim",
+ "reativar_em": "2026-05-15",
+ "razao_do_cliente": "sem_razao_declarada",
+ "razao_do_cliente_citacao": null,
+ "falha_principal_subtipo": "pendencia_do_vendedor",
+ "falhas_secundarias": [],
+ "perda_evitavel": "sim",
+ "diagnostico_confianca": "media",
+ "concorda_com_motivo_registrado": null,
+ "diagnostico_justificativa": "O negócio está aberto e não há barreira do cliente: ele aprovou, passou o CNPJ e pediu o contrato para assinar na semana. O risco vem do processo. O contrato prometido para 13/05 não tem evidência de envio, e a janela de assinatura \"essa semana\" termina hoje. A confiança é média porque o texto não prova que o contrato não foi enviado por outro canal.",
+ "acao_criar_tarefa": true,
+ "acao_titulo": "Enviar hoje o contrato no CNPJ novo ao dono",
+ "acao_data_limite": "2026-05-15",
+ "acao_prioridade": "alta",
+ "acao_rascunho_mensagem": "Oi! Desculpa a demora com o contrato. Estou te enviando agora o contrato já no nome da empresa nova, com o CNPJ que você mandou. Se conseguir assinar hoje ou no início da semana que vem, já deixamos tudo certo para começar. Qualquer ajuste, me avisa que resolvo na hora.",
+ "acao_observacao": "Prioridade máxima: o cliente aprovou, enviou o CNPJ e queria assinar nesta semana. Conferir se o contrato foi enviado por outro canal. Se não, enviar hoje com o CNPJ novo e combinar a data de assinatura. Criar tarefa de acompanhamento da assinatura no CRM.",
+ "_diagnostico_codigo": {
+  "falha_categoria": "Retomada e follow-up",
+  "falha_dono": "Comercial (execução)",
+  "motivo_crm_sugerido": {
+   "lista_antiga": "Sem resposta a proposta",
+   "lista_nova": "Ghosting"
+  }
+ },
+ "_alertas_codigo": [],
+ "_metricas_codigo": {
+  "status_crm": "aberto",
+  "ultima_msg": {
+   "autor": "executivo",
+   "data": "2026-05-12"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 3,
+  "n_msgs_cliente": 1,
+  "n_msgs_executivo": 1,
+  "intervalos_3d_ou_mais": []
+ },
+ "_data_ref": "2026-05-15"
+}

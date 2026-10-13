@@ -1,0 +1,88 @@
+{
+ "resumo": "Após visita com os dois sócios e proposta de R$ 2.250/mês, o cliente só respondeu \"Certo, obrigado\" em 10/06 e nunca mais retornou apesar de 3 follow-ups e uma visita sem agendamento. O negócio foi movido para Fechado perdido em 15/07, sem que o cliente tenha explicado o motivo.",
+ "resultado": "perdido",
+ "bola_com": "encerrado",
+ "justificativa_bola": "O negócio está marcado como perdido e o executivo já avisou que pausaria os contatos. Não há pedido ou pergunta do cliente pendente nem promessa de retomada com data.",
+ "decisor_identificado": true,
+ "decisor_papel_ou_nome": "Seu Jorge e o sócio (os dois sócios)",
+ "decisor_participou_das_conversas": false,
+ "decisor_observacao": "Os dois sócios estiveram na visita presencial de 10/06. Depois disso só Seu Jorge aparece no WhatsApp, e ele respondeu apenas \"Certo, obrigado\". O sócio nunca foi contatado diretamente. Na visita de 07/03 os sócios estavam fora e o recado ficou com a recepção.",
+ "cliente_leads_por_mes": 350,
+ "cliente_vendas_por_mes": null,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [],
+ "pedidos_e_perguntas_do_cliente": [],
+ "promessas_do_vendedor": [
+  {
+   "promessa": "Falar com o cliente no dia 20 para saber da avaliação da proposta (retorno combinado, aceito pelo cliente com 'Certo')",
+   "data_da_promessa": "2026-06-10",
+   "prazo_texto": "dia 20",
+   "prazo_data": "2026-06-20",
+   "cumprida": "sim",
+   "evidencia": "Em 20/06 o executivo escreveu: 'Conforme combinado, conseguiram avaliar?'"
+  },
+  {
+   "promessa": "Passar na imobiliária por 15 min para tirar dúvidas com os dois sócios (oferta condicional)",
+   "data_da_promessa": "2026-06-20",
+   "prazo_texto": null,
+   "prazo_data": null,
+   "cumprida": "sem_evidencia",
+   "evidencia": "Em 03/07 houve uma visita sem agendamento, com os sócios fora. O cliente nunca aceitou a oferta."
+  }
+ ],
+ "objecoes": [],
+ "desconto_oferecido": false,
+ "desconto_percentuais": [],
+ "desconto_antes_de_discutir_valor": null,
+ "falhas_de_processo": [
+  "followup_sem_valor_novo",
+  "sem_proximo_passo_definido",
+  "decisor_nao_envolvido"
+ ],
+ "motivo_real_principal": "outro",
+ "motivo_real_secundarios": [
+  "decisor_nao_envolvido"
+ ],
+ "motivo_real_confianca": "baixa",
+ "motivo_real_concorda_com_registrado": null,
+ "motivo_real_justificativa": "O cliente nunca explicou por que parou. A demo com lead real e a simulação com os 350 leads/mês foram feitas, e o cliente não levantou nenhuma objeção. Houve decisão combinada em até 10 dias, e depois silêncio. O motivo registrado (\"Sem resposta à proposta\") só descreve o sintoma. O que se vê no texto é que os follow-ups (20/06, 27/06, 10/07) foram todos pelo WhatsApp de um só sócio, sem conteúdo novo, e que o outro sócio não foi acionado diretamente. Isso é uma hipótese fraca, não uma causa comprovada. Por isso \"outro\" com confiança baixa.",
+ "acao_criar_tarefa": false,
+ "acao_titulo": null,
+ "acao_data_limite": null,
+ "acao_prioridade": "baixa",
+ "acao_rascunho_mensagem": null,
+ "acao_observacao": "O negócio está encerrado como perdido e o executivo já avisou que pausaria os contatos. Não há pendência do vendedor. Se quiser reativar no futuro, a sugestão é fazer isso com um motivo novo e falar com os dois sócios, em vez de repetir \"conseguiu avaliar?\". Esse novo contato não precisa de tarefa agora.",
+ "_metricas_codigo": {
+  "ultima_msg": {
+   "autor": "executivo",
+   "data": "2026-07-10"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 5,
+  "n_msgs_cliente": 1,
+  "n_msgs_executivo": 4,
+  "intervalos_3d_ou_mais": [
+   {
+    "falou_antes": "cliente",
+    "data_antes": "2026-06-10",
+    "voltou_a_falar": "executivo",
+    "data_depois": "2026-06-20",
+    "dias": 10
+   },
+   {
+    "falou_antes": "executivo",
+    "data_antes": "2026-06-20",
+    "voltou_a_falar": "executivo",
+    "data_depois": "2026-06-27",
+    "dias": 7
+   },
+   {
+    "falou_antes": "executivo",
+    "data_antes": "2026-06-27",
+    "voltou_a_falar": "executivo",
+    "data_depois": "2026-07-10",
+    "dias": 13
+   }
+  ]
+ },
+ "_data_ref": "2026-07-15"
+}

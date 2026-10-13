@@ -1,0 +1,87 @@
+{
+ "resumo": "Após reunião e proposta de R$ 2.250/mês, o cliente disse que vai testar primeiro a IA gratuita incluída no plano do portal. Combinou-se retorno em 60 dias (cliente aceitou), mas o negócio foi fechado como perdido no CRM sem tarefa de retomada.",
+ "bola_com": "vendedor",
+ "justificativa_bola": "O executivo perguntou \"Posso te chamar daqui 60 dias pra saber como foi?\" e o cliente respondeu \"Pode sim 👍\". Há retorno combinado com data futura, que é do vendedor, e o CRM não tem tarefa criada.",
+ "decisor_identificado": false,
+ "decisor_papel_ou_nome": null,
+ "decisor_participou_das_conversas": false,
+ "decisor_observacao": "Não há informação sobre quem decide. O interlocutor fala como se decidisse (\"vou testar essa primeiro\"), mas o papel dele não foi dito.",
+ "cliente_leads_por_mes": null,
+ "cliente_vendas_por_mes": null,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [],
+ "pedidos_e_perguntas_do_cliente": [],
+ "promessas_do_vendedor": [
+  {
+   "promessa": "Contatar o cliente em 60 dias para saber como foi o teste da IA do portal",
+   "data_da_promessa": "2026-08-15",
+   "prazo_texto": "daqui 60 dias",
+   "prazo_data": "2026-10-14",
+   "cumprida": "sem_evidencia",
+   "evidencia": "Cliente: \"Pode sim 👍\". CRM em 2026-08-18: \"Nenhuma tarefa de retorno criada.\""
+  }
+ ],
+ "objecoes": [
+  {
+   "tipo": "concorrente_gratis_ou_propria",
+   "citacao_curta": "o portal onde eu anuncio me ofereceu uma IA de atendimento incluída no meu plano, sem custo a mais",
+   "tratamento": "tratada_generica"
+  },
+  {
+   "tipo": "preco_roi",
+   "citacao_curta": "de graça é difícil competir né rsrs",
+   "tratamento": "ignorada"
+  }
+ ],
+ "desconto_oferecido": false,
+ "desconto_percentuais": [],
+ "desconto_antes_de_discutir_valor": false,
+ "falhas_de_processo": [
+  "sem_tarefa_de_retomada_no_crm",
+  "resposta_generica"
+ ],
+ "negocio_recuperavel": "sim",
+ "reativar_em": "2026-10-14",
+ "razao_do_cliente": "concorrencia_ia_gratis_ou_propria",
+ "razao_do_cliente_citacao": "o portal onde eu anuncio me ofereceu uma IA de atendimento incluída no meu plano, sem custo a mais. Vou testar essa primeiro.",
+ "falha_principal_subtipo": "abandono_sem_retomada",
+ "falhas_secundarias": [
+  "objecao_tratada_de_forma_generica",
+  "valor_roi_nao_demonstrado"
+ ],
+ "perda_evitavel": "incerto",
+ "diagnostico_confianca": "media",
+ "concorda_com_motivo_registrado": false,
+ "diagnostico_justificativa": "A razão do cliente é clara: vai testar a IA gratuita do portal. O CRM registra isso como \"seguiu com concorrência\", o que é parcialmente correto. O cliente não recusou de vez, disse \"Se não funcionar eu te chamo\" e aceitou o retorno em 60 dias. A falha evitável é o negócio ter sido fechado como perdido sem tarefa de retomada, apesar da data combinada. A objeção da IA grátis foi tratada só com diferenciais genéricos (canais, agenda), sem usar números do cliente. Não dá para saber se um tratamento melhor mudaria a decisão, então a perda fica como incerta.",
+ "acao_criar_tarefa": true,
+ "acao_titulo": "Retomar contato em 60 dias: como foi o teste da IA do portal",
+ "acao_data_limite": "2026-10-14",
+ "acao_prioridade": "media",
+ "acao_rascunho_mensagem": "Oi! Combinamos de eu te chamar hoje para saber como foi o teste da IA do portal. Ela está atendendo os leads fora do portal e agendando as visitas direto com os corretores? Se quiser, mostro uma comparação com os seus números de leads e visitas.",
+ "acao_observacao": "Reabrir o negócio ou criar a tarefa de retorno no CRM, porque foi movido para perdido sem tarefa. Antes do contato, levantar os limites típicos de IAs de portal: só atendem leads do próprio portal e talvez não agendem na agenda do corretor. Isso permite uma conversa baseada em dados, sem repetir a lista de diferenciais.",
+ "_diagnostico_codigo": {
+  "falha_categoria": "Retomada e follow-up",
+  "falha_dono": "Comercial (execução)",
+  "motivo_crm_sugerido": {
+   "lista_antiga": "Concorrente",
+   "lista_nova": "Seguiu com concorrência"
+  }
+ },
+ "_alertas_codigo": [
+  "perdido_no_crm_com_pendencia_do_vendedor",
+  "perdido_no_crm_mas_recuperavel",
+  "motivo_registrado_diverge_do_diagnostico"
+ ],
+ "_metricas_codigo": {
+  "status_crm": "perdido",
+  "ultima_msg": {
+   "autor": "cliente",
+   "data": "2026-08-15"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 3,
+  "n_msgs_cliente": 3,
+  "n_msgs_executivo": 2,
+  "intervalos_3d_ou_mais": []
+ },
+ "_data_ref": "2026-08-18"
+}

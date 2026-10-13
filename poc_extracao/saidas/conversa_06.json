@@ -1,0 +1,71 @@
+{
+ "resumo": "Cliente (incorporadora) disse que a diretoria quer a Lais, mas pediu para adiar por causa de um lançamento até o fim de setembro, e combinou retomada na primeira semana de outubro. O executivo aceitou, mas o negócio foi movido para Fechado perdido no CRM sem nenhuma tarefa de retomada para outubro.",
+ "resultado": "em_andamento",
+ "bola_com": "vendedor",
+ "justificativa_bola": "O vendedor prometeu chamar o cliente em outubro (primeira semana). Há uma retomada agendada para o futuro que depende dele, e o CRM não tem lembrete. O negócio não foi recusado, então não está encerrado.",
+ "decisor_identificado": true,
+ "decisor_papel_ou_nome": "Diretoria",
+ "decisor_participou_das_conversas": false,
+ "decisor_observacao": "O contato diz que conversou com a diretoria e que ela quer a Lais. A diretoria não aparece diretamente na conversa, mas já aprovou internamente. Não há indício de que o decisor seja um obstáculo.",
+ "cliente_leads_por_mes": null,
+ "cliente_vendas_por_mes": null,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [],
+ "pedidos_e_perguntas_do_cliente": [
+  {
+   "texto": "Me chama na primeira semana de outubro que aí a gente fecha, combinado?",
+   "data": "2026-06-16",
+   "tipo": "agenda_retorno",
+   "status": "respondida",
+   "evidencia_resposta": "Combinadíssimo! Te chamo em outubro então."
+  }
+ ],
+ "promessas_do_vendedor": [
+  {
+   "promessa": "Chamar o cliente em outubro (primeira semana) para fechar a contratação da Lais",
+   "data_da_promessa": "2026-06-16",
+   "prazo_texto": "primeira semana de outubro",
+   "prazo_data": "2026-10-01",
+   "cumprida": "sem_evidencia",
+   "evidencia": "Combinadíssimo! Te chamo em outubro então. No CRM o negócio foi movido para Fechado perdido, sem tarefa ou lembrete para outubro."
+  }
+ ],
+ "objecoes": [
+  {
+   "tipo": "momento_timing",
+   "citacao_curta": "estamos no meio do lançamento de um empreendimento e o time não tem braço pra implantar nada agora",
+   "tratamento": "tratada_generica"
+  }
+ ],
+ "desconto_oferecido": false,
+ "desconto_percentuais": [],
+ "desconto_antes_de_discutir_valor": null,
+ "falhas_de_processo": [
+  "sem_tarefa_de_retomada_no_crm",
+  "sem_proximo_passo_definido"
+ ],
+ "motivo_real_principal": "timing_do_cliente",
+ "motivo_real_secundarios": [
+  "abandono_sem_retomada"
+ ],
+ "motivo_real_confianca": "alta",
+ "motivo_real_concorda_com_registrado": true,
+ "motivo_real_justificativa": "O adiamento é genuíno e operacional (lançamento até o fim de setembro), e o cliente já tinha aprovação da diretoria. O CRM acerta o motivo \"não é o momento\", mas errou ao mover o negócio para Fechado perdido, porque existe retomada combinada para outubro. O risco real é abandono: sem tarefa, a retomada pode não acontecer.",
+ "acao_criar_tarefa": true,
+ "acao_titulo": "Retomar com cliente na 1ª semana de outubro para fechar a Lais (reabrir negócio no CRM)",
+ "acao_data_limite": "2026-10-01",
+ "acao_prioridade": "media",
+ "acao_rascunho_mensagem": "Oi! Passando como combinado para a primeira semana de outubro. Imagino que o lançamento já tenha terminado. Você comentou que a diretoria quer seguir com a Lais, então podemos marcar uma conversa esta semana para definir o início da implantação?",
+ "acao_observacao": "Reabrir o negócio no CRM, tirando-o de Fechado perdido, e criar um lembrete para 2026-10-01. A proposta é de R$ 2.250/mês e a diretoria já aprovou. Na retomada, ofereça um plano de implantação leve, que exija pouco do time. Não é necessário contato antes de outubro, pois o cliente pediu para aguardar.",
+ "_metricas_codigo": {
+  "ultima_msg": {
+   "autor": "executivo",
+   "data": "2026-06-16"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 42,
+  "n_msgs_cliente": 2,
+  "n_msgs_executivo": 1,
+  "intervalos_3d_ou_mais": []
+ },
+ "_data_ref": "2026-07-28"
+}

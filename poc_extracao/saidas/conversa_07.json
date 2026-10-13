@@ -1,0 +1,68 @@
+{
+ "resumo": "Lead capturado em evento por crachá, com reunião marcada automaticamente pelo SDR. O cliente respondeu que não lembrava de ter marcado nada e perguntou se era sobre o portal. Não recebeu resposta, faltou à reunião de 27/05 e o negócio foi fechado como perdido por \"ghosting\".",
+ "resultado": "perdido",
+ "bola_com": "encerrado",
+ "justificativa_bola": "O negócio foi fechado como perdido no CRM. O cliente não recusou explicitamente, mas nunca teve a dúvida respondida e não demonstrou interesse. Não há pendência ativa registrada além de uma eventual reabordagem opcional.",
+ "decisor_identificado": false,
+ "decisor_papel_ou_nome": null,
+ "decisor_participou_das_conversas": false,
+ "decisor_observacao": "Não há informação sobre quem decide. O contato nunca foi qualificado e a conversa não passou da confirmação da reunião.",
+ "cliente_leads_por_mes": null,
+ "cliente_vendas_por_mes": null,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [],
+ "pedidos_e_perguntas_do_cliente": [
+  {
+   "texto": "Que reunião? Não lembro de ter marcado nada. É sobre o portal?",
+   "data": "2026-05-22",
+   "tipo": "outro",
+   "status": "nao_respondida",
+   "evidencia_resposta": null
+  }
+ ],
+ "promessas_do_vendedor": [],
+ "objecoes": [],
+ "desconto_oferecido": false,
+ "desconto_percentuais": [],
+ "desconto_antes_de_discutir_valor": null,
+ "falhas_de_processo": [
+  "pergunta_ignorada",
+  "demora_na_resposta",
+  "lead_nao_qualificado",
+  "retomada_sem_contexto",
+  "sem_proximo_passo_definido",
+  "sem_tarefa_de_retomada_no_crm"
+ ],
+ "motivo_real_principal": "lead_mal_qualificado_origem",
+ "motivo_real_secundarios": [
+  "pendencia_do_vendedor"
+ ],
+ "motivo_real_confianca": "media",
+ "motivo_real_concorda_com_registrado": false,
+ "motivo_real_justificativa": "\"Ghosting\" não descreve o caso. O cliente respondeu em 40 minutos dizendo que não sabia da reunião e perguntando se era sobre o portal, e ninguém respondeu. A reunião foi marcada automaticamente a partir de um crachá escaneado, sem consentimento ou qualificação. O follow-up pós no-show (\"aconteceu algo?\") ignorou a mensagem do cliente. O principal motivo é o lead mal qualificado na origem, agravado pela pergunta sem resposta. A confiança é média porque o cliente nunca explicou por que parou.",
+ "acao_criar_tarefa": true,
+ "acao_titulo": "Reabordagem com contexto: responder à dúvida de 22/05 e qualificar o lead do evento",
+ "acao_data_limite": "2026-07-31",
+ "acao_prioridade": "baixa",
+ "acao_rascunho_mensagem": "Oi! Vi que você me perguntou em 22/05 se a reunião era sobre o portal e não respondemos, desculpa por isso. A Lais é uma IA que faz o pré-atendimento dos leads da imobiliária (portais, site, WhatsApp), respondendo na hora, inclusive fora do horário. A reunião foi marcada a partir do contato no evento, sem alinharmos antes com você. Se fizer sentido, posso te explicar em 15 min no horário que você preferir. Se não for o momento, sem problema.",
+ "acao_observacao": "Negócio fechado como perdido, mas a perda decorre de falha de processo: a pergunta do cliente nunca foi respondida e o agendamento foi automático, sem qualificação. Vale uma única reabordagem explicando o contexto, sem desconto. Se o cliente não responder, encerrar. Ajustar o CRM para o motivo \"lead mal qualificado/pergunta sem resposta\" no lugar de \"Ghosting\".",
+ "_metricas_codigo": {
+  "ultima_msg": {
+   "autor": "executivo",
+   "data": "2026-05-27"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 64,
+  "n_msgs_cliente": 1,
+  "n_msgs_executivo": 2,
+  "intervalos_3d_ou_mais": [
+   {
+    "falou_antes": "cliente",
+    "data_antes": "2026-05-22",
+    "voltou_a_falar": "executivo",
+    "data_depois": "2026-05-27",
+    "dias": 5
+   }
+  ]
+ },
+ "_data_ref": "2026-07-30"
+}

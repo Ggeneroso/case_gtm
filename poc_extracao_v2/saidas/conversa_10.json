@@ -1,0 +1,88 @@
+{
+ "resumo": "Três visitas presenciais e duas mensagens no WhatsApp para a dona Helena, que nunca respondeu. O gerente Fábio gostou e disse que ela decide. Ele também contou que a filha cuida do Instagram e do site. Nenhum contato com a filha foi tentado, e o negócio foi fechado como perdido.",
+ "bola_com": "vendedor",
+ "justificativa_bola": "A dona nunca respondeu e não recusou. Existe um caminho de contato claro que não foi tentado: a filha, que cuida do Instagram e do site (CRM de 05/08: \"Nenhum contato registrado com a filha\"). O Fábio, gerente de locação, também gostou e pode ajudar a chegar até ela.",
+ "decisor_identificado": true,
+ "decisor_papel_ou_nome": "Dona Helena (proprietária); a filha influencia o digital (Instagram e site)",
+ "decisor_participou_das_conversas": false,
+ "decisor_observacao": "A dona foi identificada e o WhatsApp dela foi obtido, mas ela nunca respondeu nem atendeu nas visitas. Só o gerente Fábio conversou. A filha, que cuida do Instagram e do site, não foi contatada.",
+ "cliente_leads_por_mes": null,
+ "cliente_vendas_por_mes": null,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [],
+ "pedidos_e_perguntas_do_cliente": [],
+ "promessas_do_vendedor": [],
+ "objecoes": [
+  {
+   "tipo": "decisor_ausente",
+   "citacao_curta": "quem decide é a dona",
+   "tratamento": "tratada_generica"
+  },
+  {
+   "tipo": "outro",
+   "citacao_curta": "ela é resistente a tecnologia",
+   "tratamento": "ignorada"
+  }
+ ],
+ "desconto_oferecido": false,
+ "desconto_percentuais": [],
+ "desconto_antes_de_discutir_valor": null,
+ "falhas_de_processo": [
+  "decisor_nao_envolvido",
+  "followup_sem_valor_novo",
+  "sem_proximo_passo_definido",
+  "sem_tarefa_de_retomada_no_crm",
+  "retomada_sem_contexto"
+ ],
+ "negocio_recuperavel": "incerto",
+ "reativar_em": "2026-08-31",
+ "razao_do_cliente": "sem_razao_declarada",
+ "razao_do_cliente_citacao": null,
+ "falha_principal_subtipo": "decisor_nao_envolvido",
+ "falhas_secundarias": [
+  "followup_sem_valor_novo",
+  "abandono_sem_retomada"
+ ],
+ "perda_evitavel": "incerto",
+ "diagnostico_confianca": "baixa",
+ "concorda_com_motivo_registrado": false,
+ "diagnostico_justificativa": "A dona nunca respondeu e não houve proposta formal, então \"Sem resposta à proposta\" não descreve o caso. O que há é um decisor nunca alcançado. A filha, um caminho indicado pelo próprio gerente, não foi tentada. Houve só duas mensagens ocas à dona: a de 05/08 (\"passei aí de novo, fico à disposição\") não trouxe valor novo nem usou o contexto da resistência a tecnologia. O cliente nunca explicou por que parou, então a confiança é baixa.",
+ "acao_criar_tarefa": true,
+ "acao_titulo": "Contatar a filha da Dona Helena (via Fábio) antes de encerrar o negócio",
+ "acao_data_limite": "2026-08-31",
+ "acao_prioridade": "media",
+ "acao_rascunho_mensagem": "Oi, Fábio! Tudo bem? Aqui é da Lais, nos falamos na visita de julho. Você comentou que a filha da Dona Helena cuida do Instagram e do site. Poderia me passar o contato dela? Queria mostrar em 15 min como a Lais responde os leads que chegam por lá fora do horário, sem mudar a rotina de vocês.",
+ "acao_observacao": "Reabrir o negócio no CRM e pedir ao Fábio o contato da filha, que cuida do Instagram e do site. Abordar a dona pelo ângulo dos leads que chegam pelo digital fora do horário, não pela tecnologia. Se não houver retorno, registrar a data de retomada em vez de apenas fechar como perdido.",
+ "_diagnostico_codigo": {
+  "falha_categoria": "Envolvimento do decisor",
+  "falha_dono": "Comercial (execução)",
+  "motivo_crm_sugerido": {
+   "lista_antiga": "Sem resposta a proposta",
+   "lista_nova": "Ghosting"
+  }
+ },
+ "_alertas_codigo": [
+  "perdido_no_crm_com_pendencia_do_vendedor",
+  "motivo_registrado_diverge_do_diagnostico"
+ ],
+ "_metricas_codigo": {
+  "status_crm": "perdido",
+  "ultima_msg": {
+   "autor": "executivo",
+   "data": "2026-08-05"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 24,
+  "n_msgs_cliente": 0,
+  "n_msgs_executivo": 2,
+  "intervalos_3d_ou_mais": [
+   {
+    "falou_antes": "executivo",
+    "data_antes": "2026-07-22",
+    "voltou_a_falar": "executivo",
+    "data_depois": "2026-08-05",
+    "dias": 14
+   }
+  ]
+ },
+ "_data_ref": "2026-08-29"
+}

@@ -1,0 +1,63 @@
+{
+ "resumo": "Após reunião e proposta de R$ 2.250/mês, o cliente disse que vai testar primeiro a IA gratuita incluída no plano do portal. Ficou combinado retorno em 60 dias (a partir de 15/08), mas o negócio foi para Fechado perdido sem tarefa de retomada no CRM.",
+ "resultado": "perdido",
+ "bola_com": "vendedor",
+ "justificativa_bola": "O vendedor se comprometeu a chamar o cliente em 60 dias e o cliente aceitou. Há retomada agendada para o futuro e nenhuma tarefa no CRM, então a pendência é do vendedor.",
+ "decisor_identificado": false,
+ "decisor_papel_ou_nome": null,
+ "decisor_participou_das_conversas": false,
+ "decisor_observacao": "A conversa não identifica quem decide. O cliente fala em primeira pessoa (\"meu plano\", \"vou testar\"), o que sugere que ele decide, mas isso não está dito de forma explícita.",
+ "cliente_leads_por_mes": null,
+ "cliente_vendas_por_mes": null,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [],
+ "pedidos_e_perguntas_do_cliente": [],
+ "promessas_do_vendedor": [
+  {
+   "promessa": "Chamar o cliente daqui 60 dias para saber como foi o teste da IA do portal",
+   "data_da_promessa": "2026-08-15",
+   "prazo_texto": "daqui 60 dias",
+   "prazo_data": "2026-10-14",
+   "cumprida": "sem_evidencia",
+   "evidencia": "Cliente aceitou: \"Pode sim 👍\". CRM: \"Nenhuma tarefa de retorno criada.\""
+  }
+ ],
+ "objecoes": [
+  {
+   "tipo": "concorrente_gratis_ou_propria",
+   "citacao_curta": "o portal onde eu anuncio me ofereceu uma IA de atendimento incluída no meu plano, sem custo a mais",
+   "tratamento": "tratada_generica"
+  }
+ ],
+ "desconto_oferecido": false,
+ "desconto_percentuais": [],
+ "desconto_antes_de_discutir_valor": null,
+ "falhas_de_processo": [
+  "resposta_generica",
+  "sem_sem_tarefa_placeholder"
+ ],
+ "motivo_real_principal": "concorrencia_ia_gratis_ou_propria",
+ "motivo_real_secundarios": [
+  "valor_roi_nao_demonstrado"
+ ],
+ "motivo_real_confianca": "alta",
+ "motivo_real_concorda_com_registrado": true,
+ "motivo_real_justificativa": "O próprio cliente disse que vai testar a IA gratuita do portal. O vendedor respondeu só com diferenciais genéricos (todos os canais, agenda do corretor), sem números do cliente nem ROI. O cliente deixou a porta aberta (\"Se não funcionar eu te chamo\"), então a perda não é definitiva.",
+ "acao_criar_tarefa": true,
+ "acao_titulo": "Retomar contato com cliente sobre teste da IA do portal (60 dias)",
+ "acao_data_limite": "2026-10-14",
+ "acao_prioridade": "media",
+ "acao_rascunho_mensagem": "Oi! Passaram os 60 dias que combinamos. Como foi o teste da IA do portal? Ela atendeu os leads fora do portal e agendou visita direto na agenda dos corretores? Se quiser, te mostro como a Lais se compara com os números da sua imobiliária.",
+ "acao_observacao": "Criar a tarefa no CRM para 14/10/2026, porque o retorno foi combinado e aceito e hoje não existe tarefa. Antes de retomar, levantar o que a IA do portal não cobre (leads de outros canais, agendamento na agenda do corretor). Na retomada, perguntar o volume de leads e a parcela fora do horário para demonstrar o ROI. Não oferecer desconto.",
+ "_metricas_codigo": {
+  "ultima_msg": {
+   "autor": "cliente",
+   "data": "2026-08-15"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 3,
+  "n_msgs_cliente": 3,
+  "n_msgs_executivo": 2,
+  "intervalos_3d_ou_mais": []
+ },
+ "_data_ref": "2026-08-18"
+}

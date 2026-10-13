@@ -1,0 +1,27 @@
+{
+  "_leia_me": "Editável pela equipe comercial. O código lê este arquivo para (1) derivar categoria e dono da falha a partir do subtipo e (2) sugerir o motivo de perda do CRM a partir da razão do cliente. Mudar um rótulo aqui não exige mudar o prompt.",
+  "falha_subtipos": {
+    "abandono_sem_retomada":            {"categoria": "Retomada e follow-up",       "dono": "Comercial (execução)", "rotulo": "Ninguém retomou no prazo combinado / negócio fechado sem tarefa"},
+    "pendencia_do_vendedor":            {"categoria": "Retomada e follow-up",       "dono": "Comercial (execução)", "rotulo": "Cliente esperava resposta, contrato ou entrega do vendedor"},
+    "followup_sem_valor_novo":          {"categoria": "Retomada e follow-up",       "dono": "Comercial (execução)", "rotulo": "Follow-ups sem conteúdo novo (ex.: 'alguma novidade?')"},
+    "valor_roi_nao_demonstrado":        {"categoria": "Descoberta e valor",         "dono": "Comercial (execução)", "rotulo": "Cliente pediu ROI/caso e não recebeu a conta com os números dele"},
+    "objecao_tratada_de_forma_generica":{"categoria": "Descoberta e valor",         "dono": "Comercial (execução)", "rotulo": "Objeção ou pedido respondido de forma genérica"},
+    "desconto_antes_de_valor":          {"categoria": "Descoberta e valor",         "dono": "Comercial (execução)", "rotulo": "Desconto oferecido antes de discutir valor"},
+    "decisor_nao_envolvido":            {"categoria": "Envolvimento do decisor",    "dono": "Comercial (execução)", "rotulo": "Quem decide nunca entrou na conversa"},
+    "lead_mal_qualificado_origem":      {"categoria": "Qualificação do lead",       "dono": "SDR / Marketing",      "rotulo": "Lead sem intenção real ou agendado sem consentimento"},
+    "oferta_inflexivel_preco_pacote":   {"categoria": "Oferta e política",          "dono": "Gestão / Produto",     "rotulo": "Regra de plano, preço ou contrato impediu o fechamento"},
+    "nenhuma":                          {"categoria": "Sem falha identificada",     "dono": "-",                    "rotulo": "Nenhuma falha com evidência no texto"}
+  },
+  "razao_do_cliente": {
+    "preco_budget":                       {"rotulo": "Preço / orçamento",                    "crm_lista_antiga": "Preço",                                    "crm_lista_nova": "Budget não aprovado"},
+    "momento_timing":                     {"rotulo": "Momento / adiamento",                  "crm_lista_antiga": "Mudança na situação do cliente",           "crm_lista_nova": "Não é o momento (adiar/retomar)"},
+    "concorrencia_ia_gratis_ou_propria":  {"rotulo": "Concorrência (IA grátis, própria ou outra)", "crm_lista_antiga": "Concorrente",                          "crm_lista_nova": "Seguiu com concorrência"},
+    "fora_do_icp_sem_dor":                {"rotulo": "Fora do perfil / sem dor",             "crm_lista_antiga": "Fora do ICP",                              "crm_lista_nova": "Fora do ICP"},
+    "funcionalidade_produto":             {"rotulo": "Falta de funcionalidade",              "crm_lista_antiga": "Produto/serviço não atendeu expectativas", "crm_lista_nova": "Falta de funcionalidade específica"},
+    "condicao_comercial_pacote_contrato": {"rotulo": "Condição comercial (pacote/contrato)", "crm_lista_antiga": "Outro (especificar)",                      "crm_lista_nova": null},
+    "sem_interesse_ou_lead_frio":         {"rotulo": "Sem interesse / lead frio",            "crm_lista_antiga": "Outro (especificar)",                      "crm_lista_nova": null},
+    "sem_razao_declarada":                {"rotulo": "Cliente não explicou",                 "crm_lista_antiga": "Sem resposta a proposta",                  "crm_lista_nova": "Ghosting"},
+    "ganho":                              {"rotulo": "Ganho",                                "crm_lista_antiga": null,                                       "crm_lista_nova": null},
+    "outro":                              {"rotulo": "Outro",                                "crm_lista_antiga": "Outro (especificar)",                      "crm_lista_nova": null}
+  }
+}

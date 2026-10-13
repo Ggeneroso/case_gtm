@@ -1,0 +1,135 @@
+{
+ "resumo": "Após a reunião e envio da proposta (R$ 3.949/mês), a Patrícia fez duas dúvidas (integração Imoview e fidelidade/cancelamento em 3 meses) antes de levar à diretoria. O executivo prometeu confirmar com o time técnico e nunca respondeu; fez follow-ups vazios e encerrou em 15/07. O CRM registra \"sem resposta à proposta\", mas quem ficou devendo foi o vendedor.",
+ "bola_com": "vendedor",
+ "justificativa_bola": "A cliente disse em 26/06: \"Ainda estou esperando aquelas respostas pra poder apresentar\". As respostas prometidas em 19/06 (\"Vou confirmar com o time técnico e já te retorno\") nunca foram entregues.",
+ "decisor_identificado": true,
+ "decisor_papel_ou_nome": "Diretoria (Patrícia é a interlocutora e levará a proposta à diretoria)",
+ "decisor_participou_das_conversas": false,
+ "decisor_observacao": "Patrícia disse que levaria a proposta \"pra diretoria\". A diretoria não participou da conversa, mas o bloqueio atual são as respostas pendentes do vendedor.",
+ "cliente_leads_por_mes": null,
+ "cliente_vendas_por_mes": null,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [],
+ "pedidos_e_perguntas_do_cliente": [
+  {
+   "texto": "A integração com o Imoview puxa os imóveis automaticamente ou alguém tem que cadastrar?",
+   "data": "2026-06-19",
+   "tipo": "tecnica_integracao",
+   "status": "nao_respondida",
+   "evidencia_resposta": "Vou confirmar com o time técnico e já te retorno (nunca retornou)"
+  },
+  {
+   "texto": "O contrato tem fidelidade? Se não funcionar em 3 meses consigo cancelar?",
+   "data": "2026-06-19",
+   "tipo": "contrato_risco",
+   "status": "nao_respondida",
+   "evidencia_resposta": "Vou confirmar com o time técnico e já te retorno (nunca retornou)"
+  }
+ ],
+ "promessas_do_vendedor": [
+  {
+   "promessa": "Confirmar com o time técnico as dúvidas sobre integração Imoview e fidelidade e retornar à cliente",
+   "data_da_promessa": "2026-06-19",
+   "prazo_texto": "já te retorno",
+   "prazo_data": "2026-06-19",
+   "cumprida": "nao",
+   "evidencia": "Nas mensagens seguintes (26/06, 02/07, 08/07, 15/07) o executivo só cobra a cliente e não traz as respostas. Em 26/06 a cliente diz que ainda espera as respostas."
+  }
+ ],
+ "objecoes": [
+  {
+   "tipo": "duvida_tecnica",
+   "citacao_curta": "a integração com o Imoview puxa os imóveis automático ou alguém tem que cadastrar?",
+   "tratamento": "ignorada"
+  },
+  {
+   "tipo": "risco_contrato",
+   "citacao_curta": "o contrato tem fidelidade? Se não funcionar em 3 meses consigo cancelar?",
+   "tratamento": "ignorada"
+  }
+ ],
+ "desconto_oferecido": false,
+ "desconto_percentuais": [],
+ "desconto_antes_de_discutir_valor": null,
+ "falhas_de_processo": [
+  "pergunta_ignorada",
+  "promessa_nao_cumprida",
+  "followup_sem_valor_novo",
+  "retomada_sem_contexto",
+  "demora_na_resposta",
+  "decisor_nao_envolvido"
+ ],
+ "negocio_recuperavel": "sim",
+ "reativar_em": "2026-07-16",
+ "razao_do_cliente": "sem_razao_declarada",
+ "razao_do_cliente_citacao": "Ainda estou esperando aquelas respostas pra poder apresentar.",
+ "falha_principal_subtipo": "pendencia_do_vendedor",
+ "falhas_secundarias": [
+  "followup_sem_valor_novo",
+  "objecao_tratada_de_forma_generica"
+ ],
+ "perda_evitavel": "sim",
+ "diagnostico_confianca": "alta",
+ "concorda_com_motivo_registrado": false,
+ "diagnostico_justificativa": "A cliente respondeu e demonstrou interesse real, pois queria levar a proposta à diretoria. Ela ficou travada porque as duas dúvidas (integração Imoview e fidelidade) nunca foram respondidas. Depois disso o vendedor só mandou follow-ups sem conteúdo (\"Conseguiu apresentar?\", \"Alguma novidade?\"). O CRM diz \"não respondeu as msgs\", mas a cliente respondeu em 26/06 e dizia estar esperando o vendedor. O motivo registrado inverte a responsabilidade. O encerramento de 15/07 não foi uma recusa da cliente.",
+ "acao_criar_tarefa": true,
+ "acao_titulo": "Responder dúvidas da Patrícia (integração Imoview e fidelidade) e retomar proposta",
+ "acao_data_limite": "2026-07-16",
+ "acao_prioridade": "alta",
+ "acao_rascunho_mensagem": "Oi Patrícia, tudo bem? Peço desculpas pela demora nas respostas que ficaram pendentes. Sobre suas duas dúvidas: 1) [confirmar com o time técnico: a integração com o Imoview importa os imóveis automaticamente ou exige cadastro manual?] 2) [confirmar a política de fidelidade e de cancelamento nos primeiros 3 meses]. Com isso você consegue levar a proposta para a diretoria. Se ajudar, posso participar de uma conversa rápida com eles para tirar dúvidas. Quando seria melhor?",
+ "acao_observacao": "Antes de enviar, obter as respostas reais com o time técnico e o comercial: o modo de sincronização da integração com o Imoview e as condições de fidelidade e cancelamento. Não mande a mensagem sem esse conteúdo, para não repetir o follow-up vazio. Corrigir o motivo de perda no CRM, que hoje diz \"sem resposta à proposta\". Reabrir o negócio e registrar a tarefa de retomada. Oferecer participar da apresentação à diretoria.",
+ "_diagnostico_codigo": {
+  "falha_categoria": "Retomada e follow-up",
+  "falha_dono": "Comercial (execução)",
+  "motivo_crm_sugerido": {
+   "lista_antiga": "Sem resposta a proposta",
+   "lista_nova": "Ghosting"
+  }
+ },
+ "_alertas_codigo": [
+  "perdido_no_crm_com_pendencia_do_vendedor",
+  "perdido_no_crm_mas_recuperavel",
+  "motivo_registrado_diverge_do_diagnostico"
+ ],
+ "_metricas_codigo": {
+  "status_crm": "perdido",
+  "ultima_msg": {
+   "autor": "executivo",
+   "data": "2026-07-15"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 0,
+  "n_msgs_cliente": 2,
+  "n_msgs_executivo": 6,
+  "intervalos_3d_ou_mais": [
+   {
+    "falou_antes": "executivo",
+    "data_antes": "2026-06-19",
+    "voltou_a_falar": "executivo",
+    "data_depois": "2026-06-26",
+    "dias": 7
+   },
+   {
+    "falou_antes": "cliente",
+    "data_antes": "2026-06-26",
+    "voltou_a_falar": "executivo",
+    "data_depois": "2026-07-02",
+    "dias": 6
+   },
+   {
+    "falou_antes": "executivo",
+    "data_antes": "2026-07-02",
+    "voltou_a_falar": "executivo",
+    "data_depois": "2026-07-08",
+    "dias": 6
+   },
+   {
+    "falou_antes": "executivo",
+    "data_antes": "2026-07-08",
+    "voltou_a_falar": "executivo",
+    "data_depois": "2026-07-15",
+    "dias": 7
+   }
+  ]
+ },
+ "_data_ref": "2026-07-15"
+}

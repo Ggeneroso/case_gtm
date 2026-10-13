@@ -1,0 +1,114 @@
+{
+ "resumo": "Dono aprovou verbalmente a proposta de R$ 3.949/mês e enviou o CNPJ novo em 12/05 pedindo o contrato para assinar na semana. O executivo prometeu enviar no dia seguinte e não enviou; o cliente cobrou em 20/05 e 03/06 sem resposta, e o negócio foi fechado automaticamente como perdido.",
+ "bola_com": "vendedor",
+ "justificativa_bola": "Cliente enviou o CNPJ e pediu o contrato (\"Pode mandar o contrato que eu assino essa semana\"); o executivo respondeu \"Mando amanhã\", e o cliente cobrou depois (\"não chegou nada ainda por aqui\", \"?\"). Não há resposta nem envio.",
+ "decisor_identificado": true,
+ "decisor_papel_ou_nome": "Dono da imobiliária",
+ "decisor_participou_das_conversas": true,
+ "decisor_observacao": "O dono aprovou verbalmente na visita e conversa diretamente, enviando o CNPJ e pedindo o contrato.",
+ "cliente_leads_por_mes": null,
+ "cliente_vendas_por_mes": null,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [],
+ "pedidos_e_perguntas_do_cliente": [
+  {
+   "texto": "Pode mandar o contrato (com o CNPJ novo) que eu assino essa semana.",
+   "data": "2026-05-12",
+   "tipo": "entrega_documento",
+   "status": "nao_respondida",
+   "evidencia_resposta": "Executivo disse \"Mando amanhã\", mas o contrato não foi enviado"
+  },
+  {
+   "texto": "Não chegou nada ainda por aqui (cobrança do contrato)",
+   "data": "2026-05-20",
+   "tipo": "entrega_documento",
+   "status": "nao_respondida",
+   "evidencia_resposta": null
+  },
+  {
+   "texto": "? (nova cobrança do contrato)",
+   "data": "2026-06-03",
+   "tipo": "entrega_documento",
+   "status": "nao_respondida",
+   "evidencia_resposta": null
+  }
+ ],
+ "promessas_do_vendedor": [
+  {
+   "promessa": "Enviar o contrato no nome da empresa nova (CNPJ novo)",
+   "data_da_promessa": "2026-05-12",
+   "prazo_texto": "amanhã",
+   "prazo_data": "2026-05-13",
+   "cumprida": "nao",
+   "evidencia": "Cliente em 20/05: \"não chegou nada ainda por aqui\"; em 03/06: \"?\"; sem resposta do executivo."
+  }
+ ],
+ "objecoes": [],
+ "desconto_oferecido": false,
+ "desconto_percentuais": [],
+ "desconto_antes_de_discutir_valor": null,
+ "falhas_de_processo": [
+  "promessa_nao_cumprida",
+  "pergunta_ignorada",
+  "demora_na_resposta",
+  "sem_tarefa_de_retomada_no_crm"
+ ],
+ "negocio_recuperavel": "sim",
+ "reativar_em": "2026-08-11",
+ "razao_do_cliente": "sem_razao_declarada",
+ "razao_do_cliente_citacao": "\"Oi, não chegou nada ainda por aqui\"",
+ "falha_principal_subtipo": "pendencia_do_vendedor",
+ "falhas_secundarias": [
+  "abandono_sem_retomada"
+ ],
+ "perda_evitavel": "sim",
+ "diagnostico_confianca": "alta",
+ "concorda_com_motivo_registrado": false,
+ "diagnostico_justificativa": "O cliente nunca recusou: aprovou, passou o CNPJ e disse que assinaria na semana. O contrato prometido para 13/05 nunca foi enviado, e duas cobranças (20/05 e 03/06) ficaram sem resposta. O motivo \"Outro / limpeza de funil\" mascara uma falha evitável do vendedor. Já se passaram 68 dias, então o contato precisa de um pedido de desculpas e de uma checagem de que o interesse continua.",
+ "acao_criar_tarefa": true,
+ "acao_titulo": "Enviar contrato ao dono (CNPJ novo) e pedir desculpas pela demora",
+ "acao_data_limite": "2026-08-11",
+ "acao_prioridade": "alta",
+ "acao_rascunho_mensagem": "Olá! Aqui é da Lastro. Peço desculpas: o contrato no nome da empresa nova, com o CNPJ que você me passou em maio, deveria ter chegado há muito tempo e eu falhei com você. Já estou enviando o contrato com a proposta de R$ 3.949/mês. Se quiser, confirmo os dados com você agora, para você assinar ainda esta semana. Pode ser?",
+ "acao_observacao": "Reabrir o negócio no CRM, que foi fechado automaticamente. Gerar o contrato com o CNPJ novo enviado em 12/05 e confirmar com o dono se as condições (R$ 3.949/mês) e o interesse continuam. Registrar tarefa de acompanhamento da assinatura no CRM.",
+ "_diagnostico_codigo": {
+  "falha_categoria": "Retomada e follow-up",
+  "falha_dono": "Comercial (execução)",
+  "motivo_crm_sugerido": {
+   "lista_antiga": "Sem resposta a proposta",
+   "lista_nova": "Ghosting"
+  }
+ },
+ "_alertas_codigo": [
+  "perdido_no_crm_com_pendencia_do_vendedor",
+  "perdido_no_crm_mas_recuperavel",
+  "motivo_registrado_diverge_do_diagnostico"
+ ],
+ "_metricas_codigo": {
+  "status_crm": "perdido",
+  "ultima_msg": {
+   "autor": "cliente",
+   "data": "2026-06-03"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 68,
+  "n_msgs_cliente": 3,
+  "n_msgs_executivo": 1,
+  "intervalos_3d_ou_mais": [
+   {
+    "falou_antes": "executivo",
+    "data_antes": "2026-05-12",
+    "voltou_a_falar": "cliente",
+    "data_depois": "2026-05-20",
+    "dias": 8
+   },
+   {
+    "falou_antes": "cliente",
+    "data_antes": "2026-05-20",
+    "voltou_a_falar": "cliente",
+    "data_depois": "2026-06-03",
+    "dias": 14
+   }
+  ]
+ },
+ "_data_ref": "2026-08-10"
+}

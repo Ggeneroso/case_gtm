@@ -1,0 +1,96 @@
+{
+ "resumo": "Dono aprovou verbalmente a proposta de R$ 3.949/mês e enviou o CNPJ novo em 12/05 pedindo o contrato para assinar na semana. O executivo prometeu enviar no dia seguinte e não enviou. O cliente cobrou em 20/05 e 03/06 sem resposta, e o CRM fechou o negócio automaticamente em 10/08.",
+ "resultado": "perdido",
+ "bola_com": "vendedor",
+ "justificativa_bola": "O cliente fez a parte dele (passou o CNPJ e pediu o contrato). O contrato nunca foi enviado e as duas cobranças ficaram sem resposta. A retomada e a entrega estão com o vendedor, e o negócio ainda pode ser recuperado.",
+ "decisor_identificado": true,
+ "decisor_papel_ou_nome": "Dono da imobiliária",
+ "decisor_participou_das_conversas": true,
+ "decisor_observacao": "O dono aprovou verbalmente na visita e, segundo a nota do CRM, pediu o contrato no nome da empresa nova. O contato no WhatsApp parece ser dele, já que ele diz \"que eu assino\".",
+ "cliente_leads_por_mes": null,
+ "cliente_vendas_por_mes": null,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [],
+ "pedidos_e_perguntas_do_cliente": [
+  {
+   "texto": "Pode mandar o contrato (no CNPJ novo) que eu assino essa semana.",
+   "data": "2026-05-12",
+   "tipo": "entrega_documento",
+   "status": "nao_respondida",
+   "evidencia_resposta": "Executivo disse \"Mando amanhã\", mas não há evidência de envio."
+  },
+  {
+   "texto": "Não chegou nada ainda por aqui (cobrança do contrato).",
+   "data": "2026-05-20",
+   "tipo": "entrega_documento",
+   "status": "nao_respondida",
+   "evidencia_resposta": null
+  },
+  {
+   "texto": "? (nova cobrança do contrato)",
+   "data": "2026-06-03",
+   "tipo": "entrega_documento",
+   "status": "nao_respondida",
+   "evidencia_resposta": null
+  }
+ ],
+ "promessas_do_vendedor": [
+  {
+   "promessa": "Enviar o contrato no nome da empresa nova (CNPJ novo)",
+   "data_da_promessa": "2026-05-12",
+   "prazo_texto": "amanhã",
+   "prazo_data": "2026-05-13",
+   "cumprida": "nao",
+   "evidencia": "Cliente disse em 20/05 \"não chegou nada ainda\" e cobrou de novo em 03/06 com \"?\". Não há resposta do executivo."
+  }
+ ],
+ "objecoes": [],
+ "desconto_oferecido": false,
+ "desconto_percentuais": [],
+ "desconto_antes_de_discutir_valor": null,
+ "falhas_de_processo": [
+  "promessa_nao_cumprida",
+  "pergunta_ignorada",
+  "demora_na_resposta",
+  "sem_tarefa_de_retomada_no_crm"
+ ],
+ "motivo_real_principal": "pendencia_do_vendedor",
+ "motivo_real_secundarios": [
+  "abandono_sem_retomada"
+ ],
+ "motivo_real_confianca": "alta",
+ "motivo_real_concorda_com_registrado": false,
+ "motivo_real_justificativa": "O registro do CRM (\"Outro\", limpeza automática de funil) é só consequência da inatividade. O cliente aprovou, enviou o CNPJ e pediu o contrato para assinar. O executivo prometeu enviar em 13/05 e não enviou, e ignorou as cobranças de 20/05 e 03/06. Não houve objeção, e o cliente aguardava o contrato.",
+ "acao_criar_tarefa": true,
+ "acao_titulo": "Enviar contrato no CNPJ novo ao dono e pedir desculpas pelo atraso",
+ "acao_data_limite": "2026-08-11",
+ "acao_prioridade": "alta",
+ "acao_rascunho_mensagem": "Oi! Peço desculpas pela demora com o contrato, a falha foi nossa. Você nos passou o CNPJ novo em 12/05 e eu não te enviei nem respondi suas mensagens. Já estou te mandando o contrato no nome da empresa nova, com a proposta de R$ 3.949/mês que combinamos na visita. Se o CNPJ ou algum dado mudou, me avise e eu ajusto na hora. Se você puder assinar nesta semana, já deixo a implantação encaminhada.",
+ "acao_observacao": "Reabrir o negócio no CRM, que foi fechado automaticamente. Gerar o contrato com o CNPJ de 12/05 e confirmar se os dados continuam válidos, porque passaram quase 3 meses. Enviar o contrato junto com a mensagem. Sugiro o gestor ligar ao dono, já que o atraso é longo e o vendedor deixou de responder. Criar tarefa de acompanhamento para 2 dias depois do envio.",
+ "_metricas_codigo": {
+  "ultima_msg": {
+   "autor": "cliente",
+   "data": "2026-06-03"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 68,
+  "n_msgs_cliente": 3,
+  "n_msgs_executivo": 1,
+  "intervalos_3d_ou_mais": [
+   {
+    "falou_antes": "executivo",
+    "data_antes": "2026-05-12",
+    "voltou_a_falar": "cliente",
+    "data_depois": "2026-05-20",
+    "dias": 8
+   },
+   {
+    "falou_antes": "cliente",
+    "data_antes": "2026-05-20",
+    "voltou_a_falar": "cliente",
+    "data_depois": "2026-06-03",
+    "dias": 14
+   }
+  ]
+ },
+ "_data_ref": "2026-08-10"
+}

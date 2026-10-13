@@ -1,0 +1,118 @@
+{
+ "resumo": "Imobiliária com ~2.000 leads/mês (80% locação de portal, ticket baixo) achou a proposta de R$ 3.949 sem sentido e pediu um plano só de venda ou um piloto de 30 dias para provar ao sócio. O vendedor não respondeu ao piloto, voltou 5 dias depois com um plano de R$ 2.999 e o cliente encerrou com \"aí fica difícil\".",
+ "bola_com": "vendedor",
+ "justificativa_bola": "O pedido de piloto de 30 dias só com a carteira de venda (\"pra eu provar pro meu sócio\") nunca foi respondido. O \"aí fica difícil. Obrigado pela atenção\" é um recuo suave, não uma recusa explícita e definitiva. O sócio é um caminho de contato claro e ainda não tentado.",
+ "decisor_identificado": true,
+ "decisor_papel_ou_nome": "Sócio do cliente (não nomeado)",
+ "decisor_participou_das_conversas": false,
+ "decisor_observacao": "O cliente quer \"provar pro meu sócio\", o que indica que o sócio participa da decisão. Ele nunca entrou na conversa e o vendedor não perguntou como envolvê-lo.",
+ "cliente_leads_por_mes": 2000,
+ "cliente_vendas_por_mes": null,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [
+  "80% dos leads são de locação vindos de portal",
+  "ticket do lead de aluguel ~R$ 1.200",
+  "venda tem poucos leads, mas é onde ganham dinheiro"
+ ],
+ "pedidos_e_perguntas_do_cliente": [
+  {
+   "texto": "Vocês têm algo só pra venda?",
+   "data": "2026-07-23",
+   "tipo": "preco_pacote",
+   "status": "respondida",
+   "evidencia_resposta": "Não conseguimos separar por tipo de lead (23/07); em 29/07: \"não conseguimos um plano só de venda\""
+  },
+  {
+   "texto": "Ou um piloto de 30 dias só com a carteira de venda pra eu provar pro meu sócio?",
+   "data": "2026-07-23",
+   "tipo": "demo_piloto",
+   "status": "nao_respondida",
+   "evidencia_resposta": null
+  }
+ ],
+ "promessas_do_vendedor": [
+  {
+   "promessa": "Ver com o gestor se há alguma condição especial",
+   "data_da_promessa": "2026-07-24",
+   "prazo_texto": null,
+   "prazo_data": null,
+   "cumprida": "sim",
+   "evidencia": "29/07: \"Infelizmente não conseguimos um plano só de venda. O menor que consigo é o de R$ 2.999.\""
+  }
+ ],
+ "objecoes": [
+  {
+   "tipo": "preco_roi",
+   "citacao_curta": "Não faz sentido pagar R$ 3.949 pra atender lead de aluguel de R$ 1.200",
+   "tratamento": "respondida_com_desconto"
+  },
+  {
+   "tipo": "decisor_ausente",
+   "citacao_curta": "um piloto de 30 dias só com a carteira de venda pra eu provar pro meu sócio",
+   "tratamento": "ignorada"
+  }
+ ],
+ "desconto_oferecido": true,
+ "desconto_percentuais": [
+  24.1
+ ],
+ "desconto_antes_de_discutir_valor": true,
+ "falhas_de_processo": [
+  "pergunta_ignorada",
+  "desconto_antes_de_valor",
+  "politica_inflexivel",
+  "decisor_nao_envolvido",
+  "demora_na_resposta",
+  "sem_proximo_passo_definido",
+  "resposta_generica"
+ ],
+ "negocio_recuperavel": "incerto",
+ "reativar_em": "2026-08-05",
+ "razao_do_cliente": "condicao_comercial_pacote_contrato",
+ "razao_do_cliente_citacao": "Não é a implantação o problema. É pagar por atendimento que não me gera receita.",
+ "falha_principal_subtipo": "oferta_inflexivel_preco_pacote",
+ "falhas_secundarias": [
+  "pendencia_do_vendedor",
+  "desconto_antes_de_valor",
+  "valor_roi_nao_demonstrado",
+  "decisor_nao_envolvido"
+ ],
+ "perda_evitavel": "incerto",
+ "diagnostico_confianca": "media",
+ "concorda_com_motivo_registrado": false,
+ "diagnostico_justificativa": "O cliente não disse que não tem orçamento. Ele disse que não quer pagar por lead de locação, que não gera receita, e queria um plano ou piloto só de venda. O CRM registra \"Preço\" e \"quer pagar pouco\", o que simplifica demais. A regra de plano por volume total impediu a segmentação, o que é decisão da empresa. O pedido de piloto de 30 dias, que ajudaria a convencer o sócio, ficou sem resposta. O vendedor respondeu com parcelamento da implantação (que o cliente já havia descartado) e depois com um plano de R$ 2.999, sem montar a conta de retorno com os números de venda. Não dá para saber se um piloto ou um ROI só de venda teria fechado, e por isso a perda é incerta.",
+ "acao_criar_tarefa": true,
+ "acao_titulo": "Responder ao pedido de piloto de 30 dias só com carteira de venda",
+ "_diagnostico_codigo": {
+  "falha_categoria": "Oferta e política",
+  "falha_dono": "Gestão / Produto",
+  "motivo_crm_sugerido": {
+   "lista_antiga": "Outro (especificar)",
+   "lista_nova": null
+  }
+ },
+ "_alertas_codigo": [
+  "perdido_no_crm_com_pendencia_do_vendedor",
+  "motivo_registrado_diverge_do_diagnostico"
+ ],
+ "_metricas_codigo": {
+  "status_crm": "perdido",
+  "ultima_msg": {
+   "autor": "cliente",
+   "data": "2026-07-29"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 0,
+  "n_msgs_cliente": 4,
+  "n_msgs_executivo": 3,
+  "intervalos_3d_ou_mais": [
+   {
+    "falou_antes": "executivo",
+    "data_antes": "2026-07-24",
+    "voltou_a_falar": "executivo",
+    "data_depois": "2026-07-29",
+    "dias": 5
+   }
+  ]
+ },
+ "_data_ref": "2026-07-29"
+}

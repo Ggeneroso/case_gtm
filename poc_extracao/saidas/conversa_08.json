@@ -1,0 +1,75 @@
+{
+ "resumo": "Cliente não quer que a IA apresente imóveis (foto/preço), só qualifique e passe ao corretor; o vendedor respondeu que a Lais apresenta imóveis. Cliente disse que o sobrinho está montando uma IA com ChatGPT e que vai esperar antes de decidir; vendedor encerrou com \"estamos aqui\", sem próximo passo.",
+ "resultado": "em_andamento",
+ "bola_com": "vendedor",
+ "justificativa_bola": "O cliente adiou a decisão sem data, mas o vendedor não definiu retomada nem tratou a objeção. Há uma retomada a fazer: confirmar se a Lais pode operar só como qualificadora e comparar com a IA caseira.",
+ "decisor_identificado": false,
+ "decisor_papel_ou_nome": null,
+ "decisor_participou_das_conversas": false,
+ "decisor_observacao": "O cliente fala em nome da imobiliária e parece decidir, mas o papel não é explicitado. Só o sobrinho é citado, como quem desenvolve a IA.",
+ "cliente_leads_por_mes": null,
+ "cliente_vendas_por_mes": null,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [],
+ "pedidos_e_perguntas_do_cliente": [
+  {
+   "texto": "Não quer que a IA mande foto e preço de imóvel; quer que ela só descubra o que a pessoa quer e passe ao corretor (pedido implícito de configuração sem apresentação de imóveis)",
+   "data": "2026-09-03",
+   "tipo": "funcionalidade",
+   "status": "respondida_generica_ou_parcial",
+   "evidencia_resposta": "Hoje a Lais apresenta os imóveis da sua prateleira, faz parte do fluxo. Mas ela também qualifica!"
+  }
+ ],
+ "promessas_do_vendedor": [],
+ "objecoes": [
+  {
+   "tipo": "funcionalidade",
+   "citacao_curta": "não quero que a IA fique mandando foto e preço de imóvel",
+   "tratamento": "tratada_generica"
+  },
+  {
+   "tipo": "concorrente_gratis_ou_propria",
+   "citacao_curta": "Meu sobrinho está montando uma IA pra gente com ChatGPT",
+   "tratamento": "ignorada"
+  },
+  {
+   "tipo": "momento_timing",
+   "citacao_curta": "Vou esperar ele terminar antes de decidir",
+   "tratamento": "ignorada"
+  }
+ ],
+ "desconto_oferecido": false,
+ "desconto_percentuais": [],
+ "desconto_antes_de_discutir_valor": null,
+ "falhas_de_processo": [
+  "resposta_generica",
+  "sem_proximo_passo_definido",
+  "sem_tarefa_de_retomada_no_crm",
+  "lead_nao_qualificado"
+ ],
+ "motivo_real_principal": "concorrencia_ia_gratis_ou_propria",
+ "motivo_real_secundarios": [
+  "funcionalidade_produto",
+  "valor_roi_nao_demonstrado"
+ ],
+ "motivo_real_confianca": "media",
+ "motivo_real_concorda_com_registrado": false,
+ "motivo_real_justificativa": "O cliente diz que vai esperar o sobrinho terminar uma IA própria com ChatGPT, o que é o fator decisivo. A objeção de funcionalidade (não apresentar imóvel) existe, mas o vendedor não verificou se dá para configurar a Lais só para qualificar. O motivo registrado cobre só metade e omite a IA própria. O negócio segue em aberto, sem recusa definitiva.",
+ "acao_criar_tarefa": true,
+ "acao_titulo": "Confirmar se a Lais pode só qualificar e retomar com o cliente",
+ "acao_data_limite": "2026-09-04",
+ "acao_prioridade": "media",
+ "acao_rascunho_mensagem": "Oi! Voltando ao que você falou: vou confirmar com o time se dá pra configurar a Lais só pra descobrir o que a pessoa procura e passar pro corretor, sem mandar foto nem preço. Te retorno com a resposta até amanhã. Se fizer sentido, posso te mostrar como fica esse fluxo antes de você decidir sobre a IA do seu sobrinho?",
+ "acao_observacao": "Verificar internamente se existe modo só de qualificação, sem apresentação de imóveis, antes de responder. Se existir, reabrir com o cliente e mostrar o fluxo, destacando o que a Lais entrega frente a uma IA caseira (qualificação consistente, integração, atendimento fora do horário). Registrar tarefa de retomada no CRM com data, já que o cliente adiou sem prazo. Não oferecer desconto.",
+ "_metricas_codigo": {
+  "ultima_msg": {
+   "autor": "executivo",
+   "data": "2026-09-03"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 0,
+  "n_msgs_cliente": 2,
+  "n_msgs_executivo": 2,
+  "intervalos_3d_ou_mais": []
+ },
+ "_data_ref": "2026-09-03"
+}

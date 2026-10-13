@@ -1,0 +1,92 @@
+{
+ "resumo": "Lead capturado em evento teve reunião agendada automaticamente pelo SDR sem consentimento; o cliente perguntou \"que reunião?\" e não foi respondido. Houve no-show, uma cobrança genérica no dia da reunião e o negócio foi fechado como perdido por \"ghosting\" 64 dias depois.",
+ "bola_com": "vendedor",
+ "justificativa_bola": "A única mensagem do cliente (\"Oi, que reunião? Não lembro de ter marcado nada. É sobre o portal?\") nunca foi respondida. O vendedor só mandou \"Te esperamos na reunião hoje, aconteceu algo?\", sem tratar a dúvida. Não houve recusa explícita, então o contato ainda não foi tentado de forma adequada.",
+ "decisor_identificado": false,
+ "decisor_papel_ou_nome": null,
+ "decisor_participou_das_conversas": false,
+ "decisor_observacao": "Não há informação sobre quem decide na imobiliária. O contato foi só um crachá escaneado no evento e a conversa nunca avançou além disso.",
+ "cliente_leads_por_mes": null,
+ "cliente_vendas_por_mes": null,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [],
+ "pedidos_e_perguntas_do_cliente": [
+  {
+   "texto": "Que reunião? Não lembro de ter marcado nada. É sobre o portal?",
+   "data": "2026-05-22",
+   "tipo": "outro",
+   "status": "nao_respondida",
+   "evidencia_resposta": null
+  }
+ ],
+ "promessas_do_vendedor": [],
+ "objecoes": [
+  {
+   "tipo": "fora_do_perfil",
+   "citacao_curta": "Não lembro de ter marcado nada",
+   "tratamento": "ignorada"
+  }
+ ],
+ "desconto_oferecido": false,
+ "desconto_percentuais": [],
+ "desconto_antes_de_discutir_valor": null,
+ "falhas_de_processo": [
+  "pergunta_ignorada",
+  "resposta_generica",
+  "lead_nao_qualificado",
+  "retomada_sem_contexto",
+  "demora_na_resposta",
+  "sem_proximo_passo_definido"
+ ],
+ "negocio_recuperavel": "incerto",
+ "reativar_em": "2026-07-31",
+ "razao_do_cliente": "sem_razao_declarada",
+ "razao_do_cliente_citacao": "Oi, que reunião? Não lembro de ter marcado nada.",
+ "falha_principal_subtipo": "lead_mal_qualificado_origem",
+ "falhas_secundarias": [
+  "pendencia_do_vendedor",
+  "objecao_tratada_de_forma_generica"
+ ],
+ "perda_evitavel": "incerto",
+ "diagnostico_confianca": "baixa",
+ "concorda_com_motivo_registrado": false,
+ "diagnostico_justificativa": "O CRM registra \"ghosting\", mas o cliente respondeu em 40 minutos e ficou sem resposta. A reunião foi marcada automaticamente, sem consentimento. O cliente perguntou do que se tratava e ninguém explicou. Ele nunca declarou desinteresse, então não dá para afirmar a causa. O no-show é coerente com não saber do que se tratava. O lead pode ser recuperável se for abordado com contexto, porque a proposta estimada é de R$ 7.000/mês e o perfil é de imobiliária grande.",
+ "acao_criar_tarefa": true,
+ "acao_titulo": "Responder dúvida do lead do evento (\"que reunião?\") e propor novo horário",
+ "acao_data_limite": "2026-07-31",
+ "acao_prioridade": "media",
+ "acao_rascunho_mensagem": "Oi! Peço desculpas pela confusão e por não ter respondido sua pergunta na época. A Lais é uma IA que faz o pré-atendimento dos leads de imobiliárias (portal, site, WhatsApp), e a reunião foi agendada depois do nosso contato no evento, sem te consultar antes. Se fizer sentido para você, posso explicar em 15 minutos como funciona e você decide se vale a pena. Qual dia e horário ficam melhores?",
+ "acao_observacao": "O cliente perguntou do que se tratava a reunião e nunca teve resposta. O agendamento automático foi feito sem consentimento. Retomar reconhecendo a falha, explicando a Lais e perguntando se há interesse, sem pressão nem desconto. Revisar também o processo de agendamento automático de leads de evento. Se não houver resposta, encerrar sem insistir.",
+ "_diagnostico_codigo": {
+  "falha_categoria": "Qualificação do lead",
+  "falha_dono": "SDR / Marketing",
+  "motivo_crm_sugerido": {
+   "lista_antiga": "Sem resposta a proposta",
+   "lista_nova": "Ghosting"
+  }
+ },
+ "_alertas_codigo": [
+  "perdido_no_crm_com_pendencia_do_vendedor",
+  "motivo_registrado_diverge_do_diagnostico"
+ ],
+ "_metricas_codigo": {
+  "status_crm": "perdido",
+  "ultima_msg": {
+   "autor": "executivo",
+   "data": "2026-05-27"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 64,
+  "n_msgs_cliente": 1,
+  "n_msgs_executivo": 2,
+  "intervalos_3d_ou_mais": [
+   {
+    "falou_antes": "cliente",
+    "data_antes": "2026-05-22",
+    "voltou_a_falar": "executivo",
+    "data_depois": "2026-05-27",
+    "dias": 5
+   }
+  ]
+ },
+ "_data_ref": "2026-07-30"
+}

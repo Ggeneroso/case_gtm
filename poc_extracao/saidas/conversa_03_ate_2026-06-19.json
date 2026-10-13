@@ -1,0 +1,80 @@
+{
+ "resumo": "Após reunião e envio da proposta (R$ 3.949/mês), Patrícia fez duas dúvidas antes de levar à diretoria: integração com Imoview e fidelidade/cancelamento em 3 meses. O executivo disse que vai confirmar com o time técnico e retornar, mas ainda não respondeu o conteúdo.",
+ "resultado": "em_andamento",
+ "bola_com": "vendedor",
+ "justificativa_bola": "O cliente fez duas perguntas e o executivo prometeu confirmar com o time técnico e retornar; a resposta está pendente com o vendedor.",
+ "decisor_identificado": true,
+ "decisor_papel_ou_nome": "Diretoria (Patrícia vai levar a proposta para a diretoria)",
+ "decisor_participou_das_conversas": false,
+ "decisor_observacao": "Patrícia é a interlocutora e vai levar a proposta à diretoria. A diretoria não participou das conversas. Vale preparar material para ela apresentar ou propor uma conversa com a diretoria.",
+ "cliente_leads_por_mes": null,
+ "cliente_vendas_por_mes": null,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [],
+ "pedidos_e_perguntas_do_cliente": [
+  {
+   "texto": "A integração com o Imoview puxa os imóveis automaticamente ou alguém tem que cadastrar?",
+   "data": "2026-06-19",
+   "tipo": "tecnica_integracao",
+   "status": "nao_respondida",
+   "evidencia_resposta": "Vou confirmar com o time técnico e já te retorno (ainda sem resposta de conteúdo)"
+  },
+  {
+   "texto": "O contrato tem fidelidade? Se não funcionar em 3 meses consigo cancelar?",
+   "data": "2026-06-19",
+   "tipo": "contrato_risco",
+   "status": "nao_respondida",
+   "evidencia_resposta": "Vou confirmar com o time técnico e já te retorno (ainda sem resposta de conteúdo)"
+  }
+ ],
+ "promessas_do_vendedor": [
+  {
+   "promessa": "Confirmar com o time técnico as dúvidas (integração Imoview e fidelidade/cancelamento) e retornar à Patrícia",
+   "data_da_promessa": "2026-06-19",
+   "prazo_texto": "já te retorno",
+   "prazo_data": "2026-06-19",
+   "cumprida": "sem_evidencia",
+   "evidencia": "Última mensagem é do executivo às 09:15 do mesmo dia, sem retorno posterior no texto."
+  }
+ ],
+ "objecoes": [
+  {
+   "tipo": "duvida_tecnica",
+   "citacao_curta": "a integração com o Imoview puxa os imóveis automático ou alguém tem que cadastrar?",
+   "tratamento": "ignorada"
+  },
+  {
+   "tipo": "risco_contrato",
+   "citacao_curta": "o contrato tem fidelidade? Se não funcionar em 3 meses consigo cancelar?",
+   "tratamento": "ignorada"
+  }
+ ],
+ "desconto_oferecido": false,
+ "desconto_percentuais": [],
+ "desconto_antes_de_discutir_valor": null,
+ "falhas_de_processo": [
+  "resposta_generica"
+ ],
+ "motivo_real_principal": "outro",
+ "motivo_real_secundarios": [],
+ "motivo_real_confianca": "baixa",
+ "motivo_real_concorda_com_registrado": null,
+ "motivo_real_justificativa": "Negócio em andamento, sem desfecho. A conversa tem só 1 dia, e a dúvida do cliente está em aberto. Não há perda a explicar.",
+ "acao_criar_tarefa": true,
+ "acao_titulo": "Responder Patrícia: integração Imoview e fidelidade/cancelamento",
+ "acao_data_limite": "2026-06-19",
+ "acao_prioridade": "alta",
+ "acao_rascunho_mensagem": "Oi Patrícia! Confirmei com o time técnico sobre as duas dúvidas. 1) Imoview: [informar se os imóveis são importados automaticamente ou se há cadastro manual, e como é a sincronização]. 2) Contrato: [informar se há fidelidade e como funciona o cancelamento nos primeiros 3 meses]. Se ajudar, posso montar um resumo de uma página para você levar à diretoria, ou participar de uma conversa com eles. O que prefere?",
+ "acao_observacao": "O executivo prometeu retorno (\"já te retorno\") no dia 19/06, e Patrícia precisa dessas respostas para levar a proposta à diretoria. Confirmar com o time técnico a integração com o Imoview e com a área comercial a política de fidelidade/cancelamento, e só então enviar a mensagem preenchida. Avaliar o envolvimento da diretoria. O CRM não informa se existe tarefa de retomada, então vale criar uma.",
+ "_metricas_codigo": {
+  "ultima_msg": {
+   "autor": "executivo",
+   "data": "2026-06-19"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 0,
+  "n_msgs_cliente": 1,
+  "n_msgs_executivo": 2,
+  "intervalos_3d_ou_mais": []
+ },
+ "_data_ref": "2026-06-19"
+}

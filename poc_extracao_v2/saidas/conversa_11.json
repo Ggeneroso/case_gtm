@@ -1,0 +1,109 @@
+{
+ "resumo": "Cliente gostou da demo, mas migra de CRM até novembro; perguntou da integração com o CRM novo (respondida) e pediu contrato com início em dezembro mantendo o valor atual, o que foi negado por política. Combinaram retomar em novembro e há tarefa no CRM para 10/11.",
+ "bola_com": "vendedor",
+ "justificativa_bola": "O executivo propôs \"conversar de novo em novembro, combinado?\" e o cliente aceitou (\"Ok, combinado\"); há retorno combinado a cargo do vendedor. O cliente também pediu o contrato com início em dezembro e a resposta foi apenas a negativa.",
+ "decisor_identificado": false,
+ "decisor_papel_ou_nome": null,
+ "decisor_participou_das_conversas": false,
+ "decisor_observacao": "Não há menção a quem decide; o interlocutor atua como contato que conduz a compra, mas seu papel não está claro.",
+ "cliente_leads_por_mes": null,
+ "cliente_vendas_por_mes": null,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [
+  "Migração de CRM termina em novembro",
+  "Proposta de R$ 2.999/mês"
+ ],
+ "pedidos_e_perguntas_do_cliente": [
+  {
+   "texto": "Vocês integram com o CRM novo?",
+   "data": "2026-08-11",
+   "tipo": "tecnica_integracao",
+   "status": "respondida",
+   "evidencia_resposta": "Confirmado: integramos com o CRM novo. Mas a integração só funciona depois que a base de imóveis estiver migrada."
+  },
+  {
+   "texto": "Me manda o contrato com início em dezembro? Assim eu garanto o valor de agora.",
+   "data": "2026-08-13",
+   "tipo": "contrato_risco",
+   "status": "respondida_generica_ou_parcial",
+   "evidencia_resposta": "Infelizmente não temos contrato com início futuro. Melhor a gente conversar de novo em novembro, combinado?"
+  }
+ ],
+ "promessas_do_vendedor": [
+  {
+   "promessa": "Checar com o time de integrações e retornar sobre a integração com o CRM novo",
+   "data_da_promessa": "2026-08-11",
+   "prazo_texto": "te retorno (sem prazo explícito)",
+   "prazo_data": null,
+   "cumprida": "sim",
+   "evidencia": "2026-08-13: Confirmado: integramos com o CRM novo."
+  },
+  {
+   "promessa": "Retomar a conversa em novembro",
+   "data_da_promessa": "2026-08-13",
+   "prazo_texto": "em novembro",
+   "prazo_data": "2026-11-01",
+   "cumprida": "sem_evidencia",
+   "evidencia": "Cliente: Ok, combinado. CRM: tarefa criada para 10/11."
+  }
+ ],
+ "objecoes": [
+  {
+   "tipo": "momento_timing",
+   "citacao_curta": "a migração termina só em novembro",
+   "tratamento": "tratada_generica"
+  },
+  {
+   "tipo": "risco_contrato",
+   "citacao_curta": "me manda o contrato com início em dezembro? Assim eu garanto o valor de agora",
+   "tratamento": "ignorada"
+  }
+ ],
+ "desconto_oferecido": false,
+ "desconto_percentuais": [],
+ "desconto_antes_de_discutir_valor": null,
+ "falhas_de_processo": [
+  "politica_inflexivel"
+ ],
+ "negocio_recuperavel": "sim",
+ "reativar_em": "2026-11-10",
+ "razao_do_cliente": "condicao_comercial_pacote_contrato",
+ "razao_do_cliente_citacao": "me manda o contrato com início em dezembro? Assim eu garanto o valor de agora",
+ "falha_principal_subtipo": "oferta_inflexivel_preco_pacote",
+ "falhas_secundarias": [],
+ "perda_evitavel": "incerto",
+ "diagnostico_confianca": "media",
+ "concorda_com_motivo_registrado": false,
+ "diagnostico_justificativa": "O cliente demonstrou interesse real (\"adorei a demo\") e queria fechar com início em dezembro, garantindo o preço. A regra da empresa de não ter contrato com início futuro bloqueou isso. O CRM registra \"Não é o momento\", mas a barreira declarada foi a condição contratual, não falta de interesse. Mesmo assim, o timing da migração é real e o retorno em novembro foi combinado, com tarefa criada para 10/11. Não está claro se uma exceção teria fechado o negócio, por isso a perda evitável é incerta.",
+ "acao_criar_tarefa": true,
+ "acao_titulo": "Retomar com cliente após migração de CRM (contrato com início em dezembro)",
+ "acao_data_limite": "2026-11-10",
+ "acao_prioridade": "media",
+ "acao_rascunho_mensagem": "Oi! Combinamos de conversar em novembro, depois da migração do CRM. Como está o andamento? Já alinhei com o time de integrações e a conexão com o CRM novo roda assim que a base de imóveis estiver migrada. Quer que a gente marque a ativação da Lais para o início de dezembro?",
+ "acao_observacao": "A tarefa de 10/11 já existe no CRM. Vale conferir internamente se há exceção para contrato com início futuro ou para manter o valor de R$ 2.999/mês, já que o cliente pediu isso para fechar. Até lá, não há ação com o cliente.",
+ "_diagnostico_codigo": {
+  "falha_categoria": "Oferta e política",
+  "falha_dono": "Gestão / Produto",
+  "motivo_crm_sugerido": {
+   "lista_antiga": "Outro (especificar)",
+   "lista_nova": null
+  }
+ },
+ "_alertas_codigo": [
+  "perdido_no_crm_com_pendencia_do_vendedor",
+  "perdido_no_crm_mas_recuperavel",
+  "motivo_registrado_diverge_do_diagnostico"
+ ],
+ "_metricas_codigo": {
+  "status_crm": "perdido",
+  "ultima_msg": {
+   "autor": "cliente",
+   "data": "2026-08-13"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 1,
+  "n_msgs_cliente": 4,
+  "n_msgs_executivo": 3,
+  "intervalos_3d_ou_mais": []
+ },
+ "_data_ref": "2026-08-14"
+}

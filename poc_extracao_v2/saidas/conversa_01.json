@@ -1,0 +1,118 @@
+{
+ "resumo": "Proposta do plano Pro (R$ 2.250/mês) enviada a Renato; o dono Sérgio, que decide, perguntou quanto a Lais aumentaria as vendas (600 leads, 8 vendas/mês) e pediu um caso parecido. O executivo respondeu de forma genérica e ofereceu 10% de desconto. Sérgio recusou \"por esse valor agora\", deixando aberta a possibilidade de \"mais pra frente\".",
+ "bola_com": "vendedor",
+ "justificativa_bola": "A pergunta de Sérgio sobre quanto a Lais aumentaria as vendas e o pedido de caso parecido tiveram só resposta genérica (\"Temos vários clientes com ótimos resultados!\"). O cliente disse \"Quem sabe mais pra frente\", ou seja, não recusou de forma definitiva, e não há retorno combinado. O vendedor pode retomar com a conta usando os números do cliente.",
+ "decisor_identificado": true,
+ "decisor_papel_ou_nome": "Sérgio, dono (assina o contrato)",
+ "decisor_participou_das_conversas": false,
+ "decisor_observacao": "Renato (gerente comercial) intermediou tudo. Sérgio não entrou na reunião e só fez perguntas por meio do Renato. Renato avisou que ele \"é muito de número\".",
+ "cliente_leads_por_mes": 600,
+ "cliente_vendas_por_mes": 8,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [],
+ "pedidos_e_perguntas_do_cliente": [
+  {
+   "texto": "Se recebemos uns 600 leads por mês e fechamos umas 8 vendas, quanto a mais a Lais faz a gente vender?",
+   "data": "2026-07-09",
+   "tipo": "prova_social_roi",
+   "status": "respondida_generica_ou_parcial",
+   "evidencia_resposta": "Temos vários clientes com ótimos resultados! A Lais atende 24h e qualifica todos os leads."
+  },
+  {
+   "texto": "Tem algum caso parecido?",
+   "data": "2026-07-09",
+   "tipo": "prova_social_roi",
+   "status": "nao_respondida",
+   "evidencia_resposta": "Temos vários clientes com ótimos resultados!"
+  }
+ ],
+ "promessas_do_vendedor": [
+  {
+   "promessa": "Enviar a proposta para Renato apresentar ao Sérgio",
+   "data_da_promessa": "2026-07-07",
+   "prazo_texto": null,
+   "prazo_data": null,
+   "cumprida": "sim",
+   "evidencia": "[2026-07-07 18:12] Renato, segue a proposta do plano Pro (R$ 2.250/mês)."
+  }
+ ],
+ "objecoes": [
+  {
+   "tipo": "preco_roi",
+   "citacao_curta": "quanto a mais a Lais faz a gente vender? Tem algum caso parecido?",
+   "tratamento": "respondida_com_desconto"
+  },
+  {
+   "tipo": "preco_roi",
+   "citacao_curta": "Ele falou que por esse valor agora não. Quem sabe mais pra frente.",
+   "tratamento": "ignorada"
+  }
+ ],
+ "desconto_oferecido": true,
+ "desconto_percentuais": [
+  10
+ ],
+ "desconto_antes_de_discutir_valor": true,
+ "falhas_de_processo": [
+  "resposta_generica",
+  "desconto_antes_de_valor",
+  "followup_sem_valor_novo",
+  "decisor_nao_envolvido",
+  "sem_proximo_passo_definido",
+  "sem_tarefa_de_retomada_no_crm"
+ ],
+ "negocio_recuperavel": "sim",
+ "reativar_em": "2026-07-17",
+ "razao_do_cliente": "preco_budget",
+ "razao_do_cliente_citacao": "Ele falou que por esse valor agora não. Quem sabe mais pra frente.",
+ "falha_principal_subtipo": "valor_roi_nao_demonstrado",
+ "falhas_secundarias": [
+  "desconto_antes_de_valor",
+  "objecao_tratada_de_forma_generica",
+  "decisor_nao_envolvido",
+  "followup_sem_valor_novo"
+ ],
+ "perda_evitavel": "sim",
+ "diagnostico_confianca": "media",
+ "concorda_com_motivo_registrado": false,
+ "diagnostico_justificativa": "O cliente alegou o valor (\"por esse valor agora não\"), então a camada 1 é preço. Mas o dono pediu a conta de retorno com números dele (600 leads, 8 vendas) e um caso parecido. O vendedor respondeu com frase genérica e ofereceu 10% de desconto, sem fazer a conta. Renato tinha avisado que Sérgio \"é muito de número\". O preço foi dito sem ROI demonstrado, então \"Preço\" sozinho no CRM não descreve a falha evitável. Sérgio nunca falou direto com o vendedor. A confiança é média porque não dá para saber se a conta teria convencido.",
+ "acao_criar_tarefa": true,
+ "acao_titulo": "Enviar a Renato/Sérgio a conta de ROI com os números deles e um caso parecido",
+ "acao_data_limite": "2026-07-16",
+ "acao_prioridade": "media",
+ "acao_rascunho_mensagem": "Renato, obrigado pelo retorno. Fiquei devendo uma resposta melhor à pergunta do Sérgio, então fiz a conta com os números de vocês: 600 leads/mês e 8 vendas hoje. Vou te mandar o cenário de quanto a Lais pode somar em vendas, comparado com os R$ 2.250/mês, e um caso de imobiliária parecida. Se fizer sentido, você ou eu mostramos pro Sérgio em 15 minutos. Posso te enviar amanhã?",
+ "acao_observacao": "Antes de enviar, montar a simulação com 600 leads e 8 vendas/mês, usando premissas conservadoras, e separar um caso de imobiliária de porte parecido. Tentar falar direto com Sérgio, que é quem decide. Registrar a retomada no CRM, porque o negócio foi marcado como perdido sem tarefa. Não oferecer desconto.",
+ "_diagnostico_codigo": {
+  "falha_categoria": "Descoberta e valor",
+  "falha_dono": "Comercial (execução)",
+  "motivo_crm_sugerido": {
+   "lista_antiga": "Preço",
+   "lista_nova": "Budget não aprovado"
+  }
+ },
+ "_alertas_codigo": [
+  "perdido_no_crm_com_pendencia_do_vendedor",
+  "perdido_no_crm_mas_recuperavel",
+  "motivo_registrado_diverge_do_diagnostico"
+ ],
+ "_metricas_codigo": {
+  "status_crm": "perdido",
+  "ultima_msg": {
+   "autor": "executivo",
+   "data": "2026-07-15"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 0,
+  "n_msgs_cliente": 3,
+  "n_msgs_executivo": 4,
+  "intervalos_3d_ou_mais": [
+   {
+    "falou_antes": "cliente",
+    "data_antes": "2026-07-09",
+    "voltou_a_falar": "executivo",
+    "data_depois": "2026-07-14",
+    "dias": 5
+   }
+  ]
+ },
+ "_data_ref": "2026-07-15"
+}

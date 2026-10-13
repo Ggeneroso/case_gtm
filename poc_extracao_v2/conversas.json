@@ -1,0 +1,662 @@
+[
+ {
+  "id": 1,
+  "perfil": "Imobiliária de médio porte, Nordeste",
+  "eventos": [
+   {
+    "autor": "transcricao",
+    "data": "2026-07-07",
+    "hora": null,
+    "texto": "Executivo: Então, Renato, só pra confirmar: quem participa da decisão aí com você?\nRenato (gerente comercial): Eu que cuido dos leads, mas quem assina é o Sérgio, o dono. Ele não conseguiu entrar hoje.\nExecutivo: Tranquilo, te mando a proposta e você apresenta pra ele.\nRenato: Fechado. Só te adianto: ele vai perguntar quanto isso traz de venda. Ele é muito de número."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-07-07",
+    "hora": "18:12",
+    "texto": "Renato, segue a proposta do plano Pro (R$ 2.250/mês). Qualquer dúvida me chama!"
+   },
+   {
+    "autor": "cliente",
+    "data": "2026-07-09",
+    "hora": "10:40",
+    "texto": "Mostrei pro Sérgio. Ele achou interessante mas perguntou: se a gente recebe uns 600 leads por mês e fecha umas 8 vendas, quanto a mais a Lais faz a gente vender? Tem algum caso parecido?"
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-07-09",
+    "hora": "11:05",
+    "texto": "Temos vários clientes com ótimos resultados! A Lais atende 24h e qualifica todos os leads. Consigo 10% de desconto se fechar até sexta 😊"
+   },
+   {
+    "autor": "cliente",
+    "data": "2026-07-09",
+    "hora": "11:30",
+    "texto": "Entendi. Vou ver com ele."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-07-14",
+    "hora": "09:00",
+    "texto": "Oi Renato, conseguiu ver com o Sérgio?"
+   },
+   {
+    "autor": "cliente",
+    "data": "2026-07-15",
+    "hora": "17:22",
+    "texto": "Ele falou que por esse valor agora não. Quem sabe mais pra frente."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-07-15",
+    "hora": "17:30",
+    "texto": "Poxa, entendo. Fico à disposição!"
+   }
+  ],
+  "canal": "Inside Sales",
+  "etapa_mais_avancada": "Reunião realizada",
+  "proposta": "R$ 2.250/mês",
+  "motivo_registrado": "Preço",
+  "texto_crm": "Não está pensando em investir esse valor agora para IA",
+  "resultado": "perdido"
+ },
+ {
+  "id": 2,
+  "perfil": "Imobiliária grande, foco em locação, Sul",
+  "eventos": [
+   {
+    "autor": "cliente",
+    "data": "2026-07-23",
+    "hora": "14:02",
+    "texto": "Oi! Recebi a proposta. Deixa eu te explicar nosso cenário melhor: dos ~2.000 leads/mês, uns 80% são de locação vindo de portal, ticket baixo. Venda é pouco lead mas é onde a gente ganha dinheiro."
+   },
+   {
+    "autor": "cliente",
+    "data": "2026-07-23",
+    "hora": "14:03",
+    "texto": "Não faz sentido pagar R$ 3.949 pra atender lead de aluguel de R$ 1.200. Vocês têm algo só pra venda? Ou um piloto de 30 dias só com a carteira de venda pra eu provar pro meu sócio?"
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-07-23",
+    "hora": "15:10",
+    "texto": "Entendo! O plano é calculado pelo volume total de atendimentos, então não conseguimos separar por tipo de lead. Mas consigo parcelar a implantação."
+   },
+   {
+    "autor": "cliente",
+    "data": "2026-07-23",
+    "hora": "15:18",
+    "texto": "Não é a implantação o problema. É pagar por atendimento que não me gera receita."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-07-24",
+    "hora": "09:30",
+    "texto": "Vou ver com meu gestor se tem alguma condição especial."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-07-29",
+    "hora": "10:00",
+    "texto": "Bom dia! Infelizmente não conseguimos um plano só de venda. O menor que consigo é o de R$ 2.999."
+   },
+   {
+    "autor": "cliente",
+    "data": "2026-07-29",
+    "hora": "10:45",
+    "texto": "Aí fica difícil. Obrigado pela atenção."
+   }
+  ],
+  "canal": "Inside Sales",
+  "etapa_mais_avancada": "Reunião realizada",
+  "proposta": "R$ 3.949/mês",
+  "motivo_registrado": "Preço",
+  "texto_crm": "Tem um monte de lead e quer pagar pouco",
+  "resultado": "perdido"
+ },
+ {
+  "id": 3,
+  "perfil": "Imobiliária de médio porte, Centro-Oeste",
+  "eventos": [
+   {
+    "autor": "executivo",
+    "data": "2026-06-18",
+    "hora": "16:40",
+    "texto": "Oi Patrícia! Foi ótimo conversar hoje. Segue a proposta.   🚀"
+   },
+   {
+    "autor": "cliente",
+    "data": "2026-06-19",
+    "hora": "09:12",
+    "texto": "Oi! Obrigada. Duas dúvidas antes de levar pra diretoria: 1) a integração com o Imoview puxa os imóveis automático ou alguém tem que cadastrar? 2) o contrato tem fidelidade? Se não funcionar em 3 meses consigo cancelar?"
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-06-19",
+    "hora": "09:15",
+    "texto": "Ótimas perguntas! Vou confirmar com o time técnico e já te retorno."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-06-26",
+    "hora": "11:00",
+    "texto": "Oi Patrícia, tudo bem? Conseguiu apresentar a proposta?"
+   },
+   {
+    "autor": "cliente",
+    "data": "2026-06-26",
+    "hora": "13:20",
+    "texto": "Oi! Ainda estou esperando aquelas respostas pra poder apresentar."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-07-02",
+    "hora": "10:00",
+    "texto": "Oi Patrícia! Passando pra saber se conseguiu avançar     😊"
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-07-08",
+    "hora": "10:00",
+    "texto": "Oi! Alguma novidade?"
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-07-15",
+    "hora": "10:00",
+    "texto": "Patrícia, vou encerrar por aqui, mas se precisar é só chamar!"
+   }
+  ],
+  "canal": "Inside Sales",
+  "etapa_mais_avancada": "Reunião realizada",
+  "proposta": "R$ 3.949/mês",
+  "motivo_registrado": "Sem resposta à proposta",
+  "texto_crm": "Não respondeu as msgs",
+  "resultado": "perdido"
+ },
+ {
+  "id": 4,
+  "perfil": "Imobiliária pequena, Sudeste",
+  "eventos": [
+   {
+    "autor": "cliente",
+    "data": "2026-08-15",
+    "hora": "10:05",
+    "texto": "Oi! Gostei muito da Lais, de verdade. Mas o portal onde eu anuncio me ofereceu uma IA de atendimento incluída no meu plano, sem custo a mais. Vou testar essa primeiro."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-08-15",
+    "hora": "10:20",
+    "texto": "Entendo! Posso te mostrar as diferenças? A nossa atende em todos os canais, não só no portal, e agenda visita direto na agenda do corretor."
+   },
+   {
+    "autor": "cliente",
+    "data": "2026-08-15",
+    "hora": "10:31",
+    "texto": "Faz sentido, mas de graça é difícil competir né rsrs. Se não funcionar eu te chamo."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-08-15",
+    "hora": "10:35",
+    "texto": "Combinado! Posso te chamar daqui 60 dias pra saber como foi?"
+   },
+   {
+    "autor": "cliente",
+    "data": "2026-08-15",
+    "hora": "10:36",
+    "texto": "Pode sim   👍"
+   },
+   {
+    "autor": "crm",
+    "data": "2026-08-18",
+    "hora": null,
+    "texto": "Negócio movido para Fechado perdido. Nenhuma tarefa de retorno criada."
+   }
+  ],
+  "canal": "Inside Sales",
+  "etapa_mais_avancada": "Reunião realizada",
+  "proposta": "R$ 2.250/mês",
+  "motivo_registrado": "Seguiu com concorrência",
+  "texto_crm": "Preferiu ficar com a IA que o portal ofereceu de graça",
+  "resultado": "perdido"
+ },
+ {
+  "id": 5,
+  "perfil": "Imobiliária de médio porte, visita presencial",
+  "eventos": [
+   {
+    "autor": "crm",
+    "data": "2026-04-30",
+    "hora": null,
+    "texto": "Nota do executivo após visita: \"Dono muito animado, aprovou de boca. Pediu contrato no nome da empresa nova (CNPJ muda em maio). Mandar contrato quando ele passar o CNPJ.\""
+   },
+   {
+    "autor": "cliente",
+    "data": "2026-05-12",
+    "hora": "08:47",
+    "texto": "Bom dia! Segue o CNPJ novo: [CNPJ]. Pode mandar o contrato que eu assino essa semana."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-05-12",
+    "hora": "19:30",
+    "texto": "Show! Mando amanhã."
+   },
+   {
+    "autor": "cliente",
+    "data": "2026-05-20",
+    "hora": "09:10",
+    "texto": "Oi, não chegou nada ainda por aqui"
+   },
+   {
+    "autor": "cliente",
+    "data": "2026-06-03",
+    "hora": "16:22",
+    "texto": "?"
+   },
+   {
+    "autor": "crm",
+    "data": "2026-08-10",
+    "hora": null,
+    "texto": "Negócio fechado automaticamente pela limpeza de funil: sem atividade registrada há mais de 60 dias."
+   }
+  ],
+  "canal": "Field Sales",
+  "etapa_mais_avancada": "Aprovação verbal",
+  "proposta": "R$ 3.949/mês",
+  "motivo_registrado": "Outro (especificar)",
+  "texto_crm": "Limpeza de Funil - Desqualificação/Perdido Automático",
+  "resultado": "perdido"
+ },
+ {
+  "id": 6,
+  "perfil": "Incorporadora com braço de vendas, Sudeste",
+  "eventos": [
+   {
+    "autor": "cliente",
+    "data": "2026-06-16",
+    "hora": "18:05",
+    "texto": "Oi! Conversei com a diretoria. A gente quer a Lais, mas estamos no meio do lançamento de um empreendimento e o time não tem braço pra implantar nada agora."
+   },
+   {
+    "autor": "cliente",
+    "data": "2026-06-16",
+    "hora": "18:06",
+    "texto": "O lançamento termina no fim de setembro. Me chama na primeira semana de outubro que aí a gente fecha, combinado?"
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-06-16",
+    "hora": "18:30",
+    "texto": "Combinadíssimo! Te chamo em outubro então."
+   },
+   {
+    "autor": "crm",
+    "data": "2026-07-28",
+    "hora": null,
+    "texto": "Negócio movido para Fechado perdido (motivo: Não é o momento). Nenhuma tarefa ou lembrete criado para outubro."
+   }
+  ],
+  "canal": "Inside Sales",
+  "etapa_mais_avancada": "Reunião realizada",
+  "proposta": "R$ 2.250/mês",
+  "motivo_registrado": "Não é o momento (adiar/retomar)",
+  "texto_crm": "Disse que vai deixar para a próxima",
+  "resultado": "perdido"
+ },
+ {
+  "id": 7,
+  "perfil": "Imobiliária grande, Sudeste (lead de evento)",
+  "eventos": [
+   {
+    "autor": "crm",
+    "data": "2026-05-22",
+    "hora": null,
+    "texto": "Lead capturado no estande do evento (crachá escaneado). Reunião agendada pelo SDR por link automático para 27/05 às 08:00."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-05-22",
+    "hora": "19:02",
+    "texto": "Olá! Sua reunião com a Lais está confirmada para 27/05 às 08h. Link: meet.google.com/xxx"
+   },
+   {
+    "autor": "cliente",
+    "data": "2026-05-22",
+    "hora": "19:40",
+    "texto": "Oi, que reunião? Não lembro de ter marcado nada. É sobre o portal?"
+   },
+   {
+    "autor": "crm",
+    "data": "2026-05-27",
+    "hora": null,
+    "texto": "No-show. Mensagem do cliente de 22/05 não foi respondida."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-05-27",
+    "hora": "08:20",
+    "texto": "Oi! Te esperamos na reunião hoje, aconteceu algo?"
+   },
+   {
+    "autor": "crm",
+    "data": "2026-07-30",
+    "hora": null,
+    "texto": "Negócio movido para Fechado perdido (Ghosting)."
+   }
+  ],
+  "canal": "Inside Sales",
+  "etapa_mais_avancada": "Reunião agendada",
+  "proposta": "R$ 7.000/mês (estimativa)",
+  "motivo_registrado": "Ghosting",
+  "texto_crm": "Noshow e sem retorno",
+  "resultado": "perdido"
+ },
+ {
+  "id": 8,
+  "perfil": "Imobiliária pequena, Sudeste",
+  "eventos": [
+   {
+    "autor": "cliente",
+    "data": "2026-09-03",
+    "hora": "11:15",
+    "texto": "Oi! Vi o vídeo que você mandou. Uma coisa que me incomoda: não quero que a IA fique mandando foto e preço de imóvel. Quero só que ela descubra o que a pessoa quer e passe pro corretor. O corretor que apresenta."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-09-03",
+    "hora": "11:40",
+    "texto": "Hoje a Lais apresenta os imóveis da sua prateleira, faz parte do fluxo. Mas ela também qualifica!"
+   },
+   {
+    "autor": "cliente",
+    "data": "2026-09-03",
+    "hora": "12:02",
+    "texto": "Entendi. Meu sobrinho está montando uma IA pra gente com ChatGPT que faz só isso. Vou esperar ele terminar antes de decidir."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-09-03",
+    "hora": "12:05",
+    "texto": "Sem problemas! Se mudar de ideia estamos aqui."
+   }
+  ],
+  "canal": "Inside Sales",
+  "etapa_mais_avancada": "Reunião agendada",
+  "proposta": "R$ 1.499/mês",
+  "motivo_registrado": "Falta de funcionalidade específica",
+  "texto_crm": "Gostaria que a Lais não apresentasse o imóvel e disse estar criando a própria IA",
+  "resultado": "perdido"
+ },
+ {
+  "id": 9,
+  "perfil": "Corretor autônomo, visita presencial",
+  "eventos": [
+   {
+    "autor": "crm",
+    "data": "2026-08-04",
+    "hora": null,
+    "texto": "Nota do executivo após visita: \"Opera sozinho com 1 assistente. Uns 80 leads/mês, quase tudo indicação. Sem CRM, usa planilha. Disse que responde todo mundo em até 1h.\""
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-08-05",
+    "hora": "10:12",
+    "texto": "Oi Márcio! Conforme conversamos, consegui uma condição especial: 20% de desconto nos 3 primeiros meses. Fica R$ 1.199."
+   },
+   {
+    "autor": "cliente",
+    "data": "2026-08-05",
+    "hora": "14:40",
+    "texto": "Obrigado pela atenção. Mas sendo sincero, eu mesmo dou conta dos meus leads hoje. Não vejo onde isso ia se pagar."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-08-06",
+    "hora": "09:00",
+    "texto": "Entendo! E se eu conseguir 30%? Fica menos de R$ 1.050."
+   },
+   {
+    "autor": "cliente",
+    "data": "2026-08-06",
+    "hora": "18:22",
+    "texto": "Não é o valor. Não é pra mim agora. Se eu crescer, te procuro."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-08-12",
+    "hora": "10:00",
+    "texto": "Oi Márcio, consegui aprovar 40% com meu gestor. Última condição!"
+   },
+   {
+    "autor": "cliente",
+    "data": "2026-08-12",
+    "hora": "20:15",
+    "texto": "Agradeço, mas não."
+   }
+  ],
+  "canal": "Field Sales",
+  "etapa_mais_avancada": "Proposta apresentada",
+  "proposta": "R$ 1.499/mês",
+  "motivo_registrado": "Preço",
+  "texto_crm": "Achou caro mesmo com desconto",
+  "resultado": "perdido"
+ },
+ {
+  "id": 10,
+  "perfil": "Imobiliária tradicional, Sul (visitas presenciais)",
+  "eventos": [
+   {
+    "autor": "crm",
+    "data": "2026-07-08",
+    "hora": null,
+    "texto": "Visita 1: atendido pela recepcionista. Dona \"em reunião\". Deixei material e cartão."
+   },
+   {
+    "autor": "crm",
+    "data": "2026-07-22",
+    "hora": null,
+    "texto": "Visita 2: atendido pelo gerente de locação, que gostou e disse que \"quem decide é a dona\". Ele passou o WhatsApp dela."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-07-22",
+    "hora": "17:05",
+    "texto": "Olá Dona Helena! Aqui é da Lais, estive hoje na imobiliária e conversei com o Fábio. Posso te mostrar em 15 min como a Lais atende os leads de vocês fora do horário?"
+   },
+   {
+    "autor": "crm",
+    "data": "2026-08-05",
+    "hora": null,
+    "texto": "Visita 3: dona não estava. Fábio contou que ela é resistente a tecnologia e que \"a filha é quem cuida do Instagram e do site\"."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-08-05",
+    "hora": "16:30",
+    "texto": "Dona Helena, passei aí de novo hoje! Fico à disposição."
+   },
+   {
+    "autor": "crm",
+    "data": "2026-08-29",
+    "hora": null,
+    "texto": "Negócio movido para Fechado perdido. Nenhum contato registrado com a filha."
+   }
+  ],
+  "canal": "Field Sales",
+  "etapa_mais_avancada": "Imobiliária aberta",
+  "proposta": "R$ 2.250/mês (estimativa)",
+  "motivo_registrado": "Sem resposta à proposta",
+  "texto_crm": "Decisor não atende o SDR nem o Field presencialmente",
+  "resultado": "perdido"
+ },
+ {
+  "id": 11,
+  "perfil": "Imobiliária de médio porte, Sudeste",
+  "eventos": [
+   {
+    "autor": "cliente",
+    "data": "2026-08-11",
+    "hora": "09:30",
+    "texto": "Oi! Adorei a demo. Só tem um problema: estamos migrando do nosso CRM atual para outro e a migração termina só em novembro."
+   },
+   {
+    "autor": "cliente",
+    "data": "2026-08-11",
+    "hora": "09:31",
+    "texto": "Vocês integram com o CRM novo? Se integrar, eu já queria deixar tudo engatilhado pra ligar a Lais junto com o CRM novo."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-08-11",
+    "hora": "10:02",
+    "texto": "Vou checar com o time de integrações e te retorno!"
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-08-13",
+    "hora": "15:20",
+    "texto": "Confirmado: integramos com o CRM novo. Mas a integração só funciona depois que a base de imóveis estiver migrada."
+   },
+   {
+    "autor": "cliente",
+    "data": "2026-08-13",
+    "hora": "15:45",
+    "texto": "Perfeito. Então me manda o contrato com início em dezembro? Assim eu garanto o valor de agora."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-08-13",
+    "hora": "16:10",
+    "texto": "Infelizmente não temos contrato com início futuro. Melhor a gente conversar de novo em novembro, combinado?"
+   },
+   {
+    "autor": "cliente",
+    "data": "2026-08-13",
+    "hora": "16:12",
+    "texto": "Ok, combinado."
+   },
+   {
+    "autor": "crm",
+    "data": "2026-08-14",
+    "hora": null,
+    "texto": "Negócio movido para Fechado perdido. Tarefa criada para 10/11."
+   }
+  ],
+  "canal": "Inside Sales",
+  "etapa_mais_avancada": "Reunião realizada",
+  "proposta": "R$ 2.999/mês",
+  "motivo_registrado": "Não é o momento (adiar/retomar)",
+  "texto_crm": "Cliente está trocando de CRM",
+  "resultado": "perdido"
+ },
+ {
+  "id": 12,
+  "perfil": "Imobiliária de médio porte, Nordeste (negócio ganho)",
+  "eventos": [
+   {
+    "autor": "transcricao",
+    "data": "2026-09-02",
+    "hora": null,
+    "texto": "Executivo: Carla, antes de mostrar a Lais: quem mais decide isso aí?\nCarla (gerente): O Anderson, meu sócio. Ele cuida do financeiro.\nExecutivo: Então vamos fazer assim: hoje eu entendo a operação de vocês e amanhã mostro os números para vocês dois juntos. Quantos leads chegam por mês e quantas vendas vocês fecham?\nCarla: Uns 500 leads, umas 7 vendas. E a gente perde muito lead que chega depois das 18h."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-09-02",
+    "hora": "18:40",
+    "texto": "Carla, montei a conta com os números de vocês: 500 leads/mês, e hoje uns 40% chegam fora do horário. Se a Lais recuperar só 1 venda por mês desses leads, ela se paga várias vezes. Amanhã às 10h com o Anderson, confirmado?"
+   },
+   {
+    "autor": "cliente",
+    "data": "2026-09-02",
+    "hora": "18:52",
+    "texto": "Confirmado, ele vai estar."
+   },
+   {
+    "autor": "transcricao",
+    "data": "2026-09-03",
+    "hora": null,
+    "texto": "Anderson (sócio): E se não funcionar?\nExecutivo: Vocês acompanham tudo na Casa da Lais. Em 30 dias a gente senta e olha junto quantos leads fora do horário viraram visita.\nAnderson: Justo. Pode mandar."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-09-03",
+    "hora": "11:05",
+    "texto": "Contrato enviado no e-mail de vocês. Qualquer dúvida estou aqui."
+   },
+   {
+    "autor": "cliente",
+    "data": "2026-09-04",
+    "hora": "09:20",
+    "texto": "Assinado!"
+   }
+  ],
+  "canal": "Inside Sales",
+  "etapa_mais_avancada": "Fechado ganho",
+  "proposta": "R$ 2.250/mês",
+  "motivo_registrado": "Não se aplica (ganho)",
+  "texto_crm": "Fechou no dia seguinte à segunda reunião",
+  "resultado": "ganho"
+ },
+ {
+  "id": 13,
+  "perfil": "Imobiliária de médio porte, Centro-Oeste (visita presencial)",
+  "eventos": [
+   {
+    "autor": "crm",
+    "data": "2026-06-10",
+    "hora": null,
+    "texto": "Visita com os dois sócios. Mostrei a Lais funcionando com um lead real deles. Pediram proposta e disseram que decidiriam em até 10 dias."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-06-10",
+    "hora": "17:30",
+    "texto": "Seu Jorge, segue a proposta que conversamos, com a simulação usando os 350 leads/mês de vocês. Combinamos de falar dia 20, certo?"
+   },
+   {
+    "autor": "cliente",
+    "data": "2026-06-10",
+    "hora": "19:02",
+    "texto": "Certo, obrigado."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-06-20",
+    "hora": "10:00",
+    "texto": "Bom dia, Seu Jorge! Conforme combinado, conseguiram avaliar? Se ajudar, posso passar aí 15 min pra tirar dúvidas com vocês dois."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-06-27",
+    "hora": "09:30",
+    "texto": "Seu Jorge, sei que a rotina aperta. Deixei um áudio de 1 minuto resumindo os pontos principais pra facilitar a conversa com o seu sócio."
+   },
+   {
+    "autor": "crm",
+    "data": "2026-07-03",
+    "hora": null,
+    "texto": "Visita sem agendamento: imobiliária aberta, sócios fora. Deixei recado com a recepção."
+   },
+   {
+    "autor": "executivo",
+    "data": "2026-07-10",
+    "hora": "11:00",
+    "texto": "Seu Jorge, vou pausar os contatos pra não incomodar. Se fizer sentido mais pra frente, é só me chamar por aqui."
+   },
+   {
+    "autor": "crm",
+    "data": "2026-07-15",
+    "hora": null,
+    "texto": "Negócio movido para Fechado perdido. Nenhuma resposta desde 10/06."
+   }
+  ],
+  "canal": "Field Sales",
+  "etapa_mais_avancada": "Proposta apresentada",
+  "proposta": "R$ 2.250/mês",
+  "motivo_registrado": "Sem resposta à proposta",
+  "texto_crm": "Sumiu depois da proposta, várias tentativas",
+  "resultado": "perdido"
+ }
+]

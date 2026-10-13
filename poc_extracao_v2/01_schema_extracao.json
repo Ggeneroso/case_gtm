@@ -1,0 +1,415 @@
+{
+  "name": "registrar_extracao",
+  "description": "Registra a análise estruturada de uma conversa de vendas (WhatsApp, transcrição de reunião e registros do CRM) de um negócio da Lais.",
+  "input_schema": {
+    "type": "object",
+    "required": [
+      "resumo",
+      "bola_com",
+      "justificativa_bola",
+      "decisor_identificado",
+      "decisor_papel_ou_nome",
+      "decisor_participou_das_conversas",
+      "decisor_observacao",
+      "cliente_leads_por_mes",
+      "cliente_vendas_por_mes",
+      "cliente_percentual_fora_do_horario",
+      "cliente_outros_numeros",
+      "pedidos_e_perguntas_do_cliente",
+      "promessas_do_vendedor",
+      "objecoes",
+      "desconto_oferecido",
+      "desconto_percentuais",
+      "desconto_antes_de_discutir_valor",
+      "falhas_de_processo",
+      "negocio_recuperavel",
+      "reativar_em",
+      "razao_do_cliente",
+      "razao_do_cliente_citacao",
+      "falha_principal_subtipo",
+      "falhas_secundarias",
+      "perda_evitavel",
+      "diagnostico_confianca",
+      "concorda_com_motivo_registrado",
+      "diagnostico_justificativa",
+      "acao_criar_tarefa",
+      "acao_titulo",
+      "acao_data_limite",
+      "acao_prioridade",
+      "acao_rascunho_mensagem",
+      "acao_observacao"
+    ],
+    "properties": {
+      "resumo": {
+        "type": "string",
+        "description": "1 a 2 frases: onde o negócio está e o que aconteceu."
+      },
+      "bola_com": {
+        "type": "string",
+        "enum": [
+          "vendedor",
+          "cliente",
+          "ninguem"
+        ],
+        "description": "Quem precisa agir agora, olhando SÓ o texto da conversa (o status do CRM não define isso). vendedor = há resposta, entrega, retomada combinada ou caminho de contato claro ainda não tentado. cliente = o vendedor fez a sua parte e o cliente ficou de decidir ou agir. ninguem = o cliente recusou de forma explícita e definitiva sem retorno combinado, ou o negócio foi ganho sem pendências."
+      },
+      "justificativa_bola": {
+        "type": "string",
+        "description": "Cite a evidência do texto que define de quem é a vez."
+      },
+      "decisor_identificado": {
+        "type": "boolean"
+      },
+      "decisor_papel_ou_nome": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "decisor_participou_das_conversas": {
+        "type": "boolean"
+      },
+      "decisor_observacao": {
+        "type": "string"
+      },
+      "cliente_leads_por_mes": {
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "cliente_vendas_por_mes": {
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "cliente_percentual_fora_do_horario": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "cliente_outros_numeros": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "pedidos_e_perguntas_do_cliente": {
+        "type": "array",
+        "description": "Toda pergunta ou pedido explícito do cliente ao vendedor.",
+        "items": {
+          "type": "object",
+          "required": [
+            "texto",
+            "data",
+            "tipo",
+            "status",
+            "evidencia_resposta"
+          ],
+          "properties": {
+            "texto": {
+              "type": "string"
+            },
+            "data": {
+              "type": "string",
+              "description": "YYYY-MM-DD"
+            },
+            "tipo": {
+              "type": "string",
+              "enum": [
+                "tecnica_integracao",
+                "contrato_risco",
+                "preco_pacote",
+                "prova_social_roi",
+                "demo_piloto",
+                "entrega_documento",
+                "funcionalidade",
+                "agenda_retorno",
+                "outro"
+              ]
+            },
+            "status": {
+              "type": "string",
+              "enum": [
+                "respondida",
+                "respondida_generica_ou_parcial",
+                "nao_respondida"
+              ]
+            },
+            "evidencia_resposta": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "Trecho curto da resposta do vendedor, ou null."
+            }
+          }
+        }
+      },
+      "promessas_do_vendedor": {
+        "type": "array",
+        "description": "Compromissos assumidos pelo vendedor, explícitos ou implícitos (inclui retorno combinado em data que o cliente pediu e o vendedor aceitou).",
+        "items": {
+          "type": "object",
+          "required": [
+            "promessa",
+            "data_da_promessa",
+            "prazo_texto",
+            "prazo_data",
+            "cumprida",
+            "evidencia"
+          ],
+          "properties": {
+            "promessa": {
+              "type": "string"
+            },
+            "data_da_promessa": {
+              "type": "string",
+              "description": "YYYY-MM-DD"
+            },
+            "prazo_texto": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "Como o prazo foi dito, ex.: 'amanhã', 'em outubro'."
+            },
+            "prazo_data": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "YYYY-MM-DD calculado a partir da data da promessa. Para períodos, o primeiro dia."
+            },
+            "cumprida": {
+              "type": "string",
+              "enum": [
+                "sim",
+                "nao",
+                "sem_evidencia"
+              ]
+            },
+            "evidencia": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        }
+      },
+      "objecoes": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "tipo",
+            "citacao_curta",
+            "tratamento"
+          ],
+          "properties": {
+            "tipo": {
+              "type": "string",
+              "enum": [
+                "preco_roi",
+                "falta_prova_social",
+                "duvida_tecnica",
+                "risco_contrato",
+                "concorrente_gratis_ou_propria",
+                "momento_timing",
+                "funcionalidade",
+                "decisor_ausente",
+                "fora_do_perfil",
+                "outro"
+              ]
+            },
+            "citacao_curta": {
+              "type": "string"
+            },
+            "tratamento": {
+              "type": "string",
+              "enum": [
+                "tratada_com_dado",
+                "tratada_generica",
+                "ignorada",
+                "respondida_com_desconto"
+              ]
+            }
+          }
+        }
+      },
+      "desconto_oferecido": {
+        "type": "boolean"
+      },
+      "desconto_percentuais": {
+        "type": "array",
+        "items": {
+          "type": "number"
+        }
+      },
+      "desconto_antes_de_discutir_valor": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "falhas_de_processo": {
+        "type": "array",
+        "description": "Só inclua falhas com evidência no texto.",
+        "items": {
+          "type": "string",
+          "enum": [
+            "resposta_generica",
+            "pergunta_ignorada",
+            "promessa_nao_cumprida",
+            "desconto_antes_de_valor",
+            "retomada_sem_contexto",
+            "followup_sem_valor_novo",
+            "sem_proximo_passo_definido",
+            "sem_tarefa_de_retomada_no_crm",
+            "decisor_nao_envolvido",
+            "demora_na_resposta",
+            "lead_nao_qualificado",
+            "politica_inflexivel"
+          ]
+        }
+      },
+      "acao_criar_tarefa": {
+        "type": "boolean"
+      },
+      "acao_titulo": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "acao_data_limite": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "description": "YYYY-MM-DD"
+      },
+      "acao_prioridade": {
+        "type": "string",
+        "enum": [
+          "alta",
+          "media",
+          "baixa"
+        ]
+      },
+      "acao_rascunho_mensagem": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "description": "Mensagem curta de WhatsApp, em português, para o vendedor revisar e enviar."
+      },
+      "acao_observacao": {
+        "type": "string"
+      },
+      "negocio_recuperavel": {
+        "type": "string",
+        "enum": [
+          "sim",
+          "incerto",
+          "nao"
+        ],
+        "description": "Ainda vale tentar retomar este negócio? Independe do status no CRM."
+      },
+      "reativar_em": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "description": "YYYY-MM-DD. Data para retomar (combinada com o cliente ou sugerida). null se não houver."
+      },
+      "razao_do_cliente": {
+        "type": "string",
+        "enum": [
+          "preco_budget",
+          "momento_timing",
+          "concorrencia_ia_gratis_ou_propria",
+          "fora_do_icp_sem_dor",
+          "funcionalidade_produto",
+          "condicao_comercial_pacote_contrato",
+          "sem_interesse_ou_lead_frio",
+          "sem_razao_declarada",
+          "ganho",
+          "outro"
+        ],
+        "description": "CAMADA 1. O que o CLIENTE disse ou fez como barreira, nas palavras dele. Sem inferir. Se ele nunca explicou, sem_razao_declarada."
+      },
+      "razao_do_cliente_citacao": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "description": "Trecho curto das palavras do cliente que sustenta a razão. null se não houver."
+      },
+      "falha_principal_subtipo": {
+        "type": "string",
+        "enum": [
+          "abandono_sem_retomada",
+          "pendencia_do_vendedor",
+          "followup_sem_valor_novo",
+          "valor_roi_nao_demonstrado",
+          "objecao_tratada_de_forma_generica",
+          "desconto_antes_de_valor",
+          "decisor_nao_envolvido",
+          "lead_mal_qualificado_origem",
+          "oferta_inflexivel_preco_pacote",
+          "nenhuma"
+        ],
+        "description": "CAMADA 2. A principal falha de processo/oferta com evidência no texto, mesmo que a perda não fosse evitável. nenhuma se não há falha com evidência."
+      },
+      "falhas_secundarias": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "enum": [
+            "abandono_sem_retomada",
+            "pendencia_do_vendedor",
+            "followup_sem_valor_novo",
+            "valor_roi_nao_demonstrado",
+            "objecao_tratada_de_forma_generica",
+            "desconto_antes_de_valor",
+            "decisor_nao_envolvido",
+            "lead_mal_qualificado_origem",
+            "oferta_inflexivel_preco_pacote"
+          ]
+        }
+      },
+      "perda_evitavel": {
+        "type": "string",
+        "enum": [
+          "sim",
+          "incerto",
+          "nao",
+          "nao_se_aplica"
+        ],
+        "description": "Sem a falha principal, o negócio provavelmente teria avançado ou fechado? nao_se_aplica para negócio ganho."
+      },
+      "diagnostico_confianca": {
+        "type": "string",
+        "enum": [
+          "alta",
+          "media",
+          "baixa"
+        ]
+      },
+      "concorda_com_motivo_registrado": {
+        "type": [
+          "boolean",
+          "null"
+        ],
+        "description": "true só se o motivo registrado no CRM descreve corretamente a razão do cliente E, quando existe, a falha evitável. null se ganho."
+      },
+      "diagnostico_justificativa": {
+        "type": "string"
+      }
+    }
+  }
+}

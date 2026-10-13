@@ -1,0 +1,102 @@
+{
+ "resumo": "Após reunião e proposta do plano Pro (R$ 2.250/mês), o dono Sérgio perguntou quanto a Lais aumentaria as vendas (600 leads, 8 vendas) e pediu um caso parecido. O executivo respondeu de forma genérica e ofereceu 10% de desconto. Em 15/07 o cliente recusou pelo valor, \"quem sabe mais pra frente\".",
+ "resultado": "perdido",
+ "bola_com": "encerrado",
+ "justificativa_bola": "O cliente recusou (\"por esse valor agora não. Quem sabe mais pra frente\") e não há pendência de resposta, entrega ou retomada combinada. O executivo encerrou com \"fico à disposição\".",
+ "decisor_identificado": true,
+ "decisor_papel_ou_nome": "Sérgio, dono (quem assina)",
+ "decisor_participou_das_conversas": false,
+ "decisor_observacao": "Sérgio não entrou na reunião de 07/07. O executivo mandou a proposta para o Renato apresentar a ele. Todas as perguntas do dono chegaram via Renato, e o vendedor nunca falou direto com ele. Renato avisou que Sérgio é \"muito de número\", mas o executivo não se preparou para isso.",
+ "cliente_leads_por_mes": 600,
+ "cliente_vendas_por_mes": 8,
+ "cliente_percentual_fora_do_horario": null,
+ "cliente_outros_numeros": [],
+ "pedidos_e_perguntas_do_cliente": [
+  {
+   "texto": "Se recebemos uns 600 leads por mês e fechamos umas 8 vendas, quanto a mais a Lais faz a gente vender?",
+   "data": "2026-07-09",
+   "tipo": "prova_social_roi",
+   "status": "respondida_generica_ou_parcial",
+   "evidencia_resposta": "Temos vários clientes com ótimos resultados! A Lais atende 24h e qualifica todos os leads."
+  },
+  {
+   "texto": "Tem algum caso parecido?",
+   "data": "2026-07-09",
+   "tipo": "prova_social_roi",
+   "status": "nao_respondida",
+   "evidencia_resposta": "Temos vários clientes com ótimos resultados!"
+  }
+ ],
+ "promessas_do_vendedor": [
+  {
+   "promessa": "Enviar a proposta para o Renato apresentar ao Sérgio",
+   "data_da_promessa": "2026-07-07",
+   "prazo_texto": null,
+   "prazo_data": null,
+   "cumprida": "sim",
+   "evidencia": "[2026-07-07 18:12] Renato, segue a proposta do plano Pro (R$ 2.250/mês)."
+  }
+ ],
+ "objecoes": [
+  {
+   "tipo": "preco_roi",
+   "citacao_curta": "quanto a mais a Lais faz a gente vender?",
+   "tratamento": "respondida_com_desconto"
+  },
+  {
+   "tipo": "falta_prova_social",
+   "citacao_curta": "Tem algum caso parecido?",
+   "tratamento": "tratada_generica"
+  },
+  {
+   "tipo": "preco_roi",
+   "citacao_curta": "por esse valor agora não. Quem sabe mais pra frente.",
+   "tratamento": "ignorada"
+  }
+ ],
+ "desconto_oferecido": true,
+ "desconto_percentuais": [
+  10
+ ],
+ "desconto_antes_de_discutir_valor": true,
+ "falhas_de_processo": [
+  "resposta_generica",
+  "pergunta_ignorada",
+  "desconto_antes_de_valor",
+  "decisor_nao_envolvido",
+  "followup_sem_valor_novo",
+  "sem_proximo_passo_definido"
+ ],
+ "motivo_real_principal": "valor_roi_nao_demonstrado",
+ "motivo_real_secundarios": [
+  "decisor_nao_envolvido"
+ ],
+ "motivo_real_confianca": "alta",
+ "motivo_real_concorda_com_registrado": false,
+ "motivo_real_justificativa": "O CRM registra \"Preço\", mas o dono pediu um cálculo de retorno com os números dele (600 leads, 8 vendas) e um caso parecido. O vendedor respondeu com frases genéricas e um desconto de 10%, sem fazer a conta. O dono, que decide e \"é muito de número\", nunca falou com o vendedor. A objeção de preço vem da falta de ROI demonstrado, não do valor em si.",
+ "acao_criar_tarefa": false,
+ "acao_titulo": null,
+ "acao_data_limite": null,
+ "acao_prioridade": "baixa",
+ "acao_rascunho_mensagem": null,
+ "acao_observacao": "O cliente recusou por ora e não há pendência. O vendedor não combinou data de retomada, e \"quem sabe mais pra frente\" é vago. Sugestão opcional: registrar no CRM que o motivo real foi ROI não demonstrado, não preço. Num contato futuro, trazer a conta com os números dele (600 leads, 8 vendas) e um case de porte semelhante, e envolver o Sérgio diretamente. Nenhuma tarefa urgente.",
+ "_metricas_codigo": {
+  "ultima_msg": {
+   "autor": "executivo",
+   "data": "2026-07-15"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 0,
+  "n_msgs_cliente": 3,
+  "n_msgs_executivo": 4,
+  "intervalos_3d_ou_mais": [
+   {
+    "falou_antes": "cliente",
+    "data_antes": "2026-07-09",
+    "voltou_a_falar": "executivo",
+    "data_depois": "2026-07-14",
+    "dias": 5
+   }
+  ]
+ },
+ "_data_ref": "2026-07-15"
+}

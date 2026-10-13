@@ -1,0 +1,91 @@
+{
+ "resumo": "Negócio ganho: após identificar o decisor (Anderson, sócio) logo na primeira reunião e apresentar a conta com os números do cliente, o contrato foi enviado em 03/09 e assinado em 04/09 (R$ 2.250/mês).",
+ "resultado": "ganho",
+ "bola_com": "encerrado",
+ "justificativa_bola": "Contrato assinado pelo cliente em 04/09; não há pendência de resposta ou entrega do vendedor registrada na conversa.",
+ "decisor_identificado": true,
+ "decisor_papel_ou_nome": "Anderson, sócio (cuida do financeiro)",
+ "decisor_participou_das_conversas": true,
+ "decisor_observacao": "O executivo perguntou quem decide antes de mostrar a Lais. Carla indicou Anderson e ele participou da segunda reunião (03/09), em que aprovou (\"Pode mandar\").",
+ "cliente_leads_por_mes": 500,
+ "cliente_vendas_por_mes": 7,
+ "cliente_percentual_fora_do_horario": 40,
+ "cliente_outros_numeros": [],
+ "pedidos_e_perguntas_do_cliente": [
+  {
+   "texto": "E se não funcionar?",
+   "data": "2026-09-03",
+   "tipo": "contrato_risco",
+   "status": "respondida",
+   "evidencia_resposta": "Vocês acompanham tudo na Casa da Lais. Em 30 dias a gente senta e olha junto quantos leads fora do horário viraram visita."
+  },
+  {
+   "texto": "Pode mandar (o contrato)",
+   "data": "2026-09-03",
+   "tipo": "entrega_documento",
+   "status": "respondida",
+   "evidencia_resposta": "Contrato enviado no e-mail de vocês."
+  }
+ ],
+ "promessas_do_vendedor": [
+  {
+   "promessa": "Mostrar os números para Carla e Anderson juntos na reunião seguinte",
+   "data_da_promessa": "2026-09-02",
+   "prazo_texto": "amanhã",
+   "prazo_data": "2026-09-03",
+   "cumprida": "sim",
+   "evidencia": "Reunião de 03/09 com Anderson presente, após a conta enviada em 02/09 às 18:40."
+  },
+  {
+   "promessa": "Sentar com o cliente em 30 dias para olhar quantos leads fora do horário viraram visita",
+   "data_da_promessa": "2026-09-03",
+   "prazo_texto": "Em 30 dias",
+   "prazo_data": "2026-10-03",
+   "cumprida": "sem_evidencia",
+   "evidencia": "Prazo futuro; não há registro de tarefa de revisão no CRM."
+  },
+  {
+   "promessa": "Enviar o contrato por e-mail",
+   "data_da_promessa": "2026-09-03",
+   "prazo_texto": null,
+   "prazo_data": "2026-09-03",
+   "cumprida": "sim",
+   "evidencia": "Contrato enviado no e-mail de vocês (03/09 11:05); cliente assinou em 04/09."
+  }
+ ],
+ "objecoes": [
+  {
+   "tipo": "risco_contrato",
+   "citacao_curta": "E se não funcionar?",
+   "tratamento": "tratada_com_dado"
+  }
+ ],
+ "desconto_oferecido": false,
+ "desconto_percentuais": [],
+ "desconto_antes_de_discutir_valor": null,
+ "falhas_de_processo": [
+  "sem_tarefa_de_retomada_no_crm"
+ ],
+ "motivo_real_principal": "ganho",
+ "motivo_real_secundarios": [],
+ "motivo_real_confianca": "alta",
+ "motivo_real_concorda_com_registrado": null,
+ "motivo_real_justificativa": "O executivo identificou o decisor logo no início e o trouxe para a segunda reunião. Montou a conta com os números do cliente (500 leads/mês, 40% fora do horário) e tratou o risco com um acompanhamento de 30 dias. Não houve desconto. O CRM registra apenas \"fechou no dia seguinte\", sem esses fatores. A falha apontada é que a revisão de 30 dias prometida não tem tarefa no CRM.",
+ "acao_criar_tarefa": true,
+ "acao_titulo": "Revisão de 30 dias: leads fora do horário que viraram visita (Carla e Anderson)",
+ "acao_data_limite": "2026-10-03",
+ "acao_prioridade": "media",
+ "acao_rascunho_mensagem": "Carla, Anderson, bem-vindos! Contrato assinado, obrigado pela confiança. Vou alinhar com o time o início da implantação e já passo os próximos passos. Combinado: em 30 dias sentamos juntos para olhar quantos leads fora do horário viraram visita. Vou deixar essa data reservada.",
+ "acao_observacao": "O negócio foi ganho, mas o executivo prometeu uma revisão em 30 dias (cerca de 03/10) sem tarefa registrada no CRM. Criar a tarefa e agendar a reunião, e enviar uma mensagem de boas-vindas com os próximos passos da implantação.",
+ "_metricas_codigo": {
+  "ultima_msg": {
+   "autor": "cliente",
+   "data": "2026-09-04"
+  },
+  "dias_desde_ultima_msg_ate_data_ref": 0,
+  "n_msgs_cliente": 2,
+  "n_msgs_executivo": 2,
+  "intervalos_3d_ou_mais": []
+ },
+ "_data_ref": "2026-09-04"
+}
